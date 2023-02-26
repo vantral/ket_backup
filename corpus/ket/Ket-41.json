@@ -1,0 +1,1008 @@
+{
+  "meta": {
+    "title": "Тыганова У.П. Как люди рыбачили и охотились ",
+    "filename": "corpus\\xml\\Ket.xml"
+  },
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.1.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "igda",
+          "ana": [
+            {
+              "parts": "ikda",
+              "gloss": "",
+              "gloss_index": "STEM{ikda}-",
+              "lex": "ikda",
+              "trans_ru": "на берег",
+              "gloss_ru": "на.берег",
+              "gloss_index_ru": "STEM{ikda}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "hyta",
+          "ana": [
+            {
+              "parts": "hyta",
+              "gloss": "",
+              "gloss_index": "STEM{hyta}-",
+              "lex": "hyta",
+              "trans_ru": "вниз",
+              "gloss_ru": "вниз",
+              "gloss_index_ru": "STEM{hyta}-",
+              "gr.pos": [
+                "<Not Sure>",
+                "adv"
+              ]
+            }
+          ],
+          "off_start": 10,
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "deˀŋ",
+          "ana": [
+            {
+              "parts": "deˀŋ",
+              "gloss": "",
+              "gloss_index": "STEM{deˀŋ}-",
+              "lex": "deˀŋ",
+              "trans_ru": "люди",
+              "gloss_ru": "люди",
+              "gloss_index_ru": "STEM{deˀŋ}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 15,
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "naŋqutin",
+          "ana": [
+            {
+              "parts": "d-∅-n-aŋ-qut-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-PRS{∅}-PST{n}-O3.3PL.CORF{aŋ}-STEM{qut}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-PRS-PSTO3.3PL.CORF-перемещатьсяEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-PRS{∅}-PST{n}-O3.3PL.CORF{aŋ}-STEM{qut}-EP{i}-S1.PL{n}-",
+              "lex": "qut",
+              "trans_ru": "перемещаться",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 20,
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "bat",
+          "ana": [
+            {
+              "parts": "bat",
+              "gloss": "",
+              "gloss_index": "бывало{bat}-",
+              "gloss_ru": "бывало",
+              "gloss_index_ru": "бывало{bat}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 29,
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "eŋŋuŋ",
+          "ana": [
+            {
+              "parts": "eŋŋuŋ",
+              "gloss": "",
+              "gloss_index": "STEM{eŋŋuŋ}-",
+              "lex": "eŋŋuŋ",
+              "trans_ru": "деревня",
+              "gloss_ru": "деревня",
+              "gloss_index_ru": "STEM{eŋŋuŋ}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 33,
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "igda",
+          "ana": [
+            {
+              "parts": "ikda",
+              "gloss": "",
+              "gloss_index": "STEM{ikda}-",
+              "lex": "ikda",
+              "trans_ru": "на берег",
+              "gloss_ru": "на.берег",
+              "gloss_index_ru": "STEM{ikda}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 39,
+          "off_end": 43,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 43,
+          "off_end": 44,
+          "next_word": 9
+        }
+      ],
+      "text": "1.1. igda hyta deˀŋ naŋqutin bat eŋŋuŋ igda.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 44,
+          "para_id": 2802
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.2.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "bat",
+          "ana": [
+            {
+              "parts": "bat",
+              "gloss": "",
+              "gloss_index": "бывало{bat}-",
+              "gloss_ru": "бывало",
+              "gloss_index_ru": "бывало{bat}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "duunolbetin",
+          "ana": [
+            {
+              "parts": "d-dúùno-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-STEM{dúùn}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-рыбачитьT.PSTPST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-STEM{dúùn}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "lex": "dúùn",
+              "trans_ru": "рыбачить",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 9,
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "yda",
+          "ana": [
+            {
+              "parts": "yda",
+              "gloss": "",
+              "gloss_index": "STEM{yda}-",
+              "lex": "yda",
+              "trans_ru": "весна",
+              "gloss_ru": "весна",
+              "gloss_index_ru": "STEM{yda}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 21,
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "dugde",
+          "ana": [
+            {
+              "parts": "dugde",
+              "gloss": "",
+              "gloss_index": "STEM{dugde}-",
+              "lex": "dugde",
+              "trans_ru": "в течение",
+              "gloss_ru": "в.течение",
+              "gloss_index_ru": "STEM{dugde}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 25,
+          "off_end": 30,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ìn",
+          "ana": [
+            {
+              "parts": "ìn",
+              "gloss": "",
+              "gloss_index": "STEM{ìn}-",
+              "lex": "ìn",
+              "trans_ru": "долго",
+              "gloss_ru": "долго",
+              "gloss_index_ru": "STEM{ìn}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 31,
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 33,
+          "off_end": 34,
+          "next_word": 7
+        }
+      ],
+      "text": "1.2. bat duunolbetin yda dugde ìn.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 2803
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.3.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "lobetolbetin",
+          "ana": [
+            {
+              "parts": "d-lobeto-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 17,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "binnaŋa",
+          "ana": [
+            {
+              "parts": "bin-na-ŋa",
+              "gloss": "",
+              "gloss_index": "STEM{bin}-GEN.PL.NTH{na}-DATALL{ŋa}-",
+              "lex": "bin",
+              "trans_ru": "RFL",
+              "gloss_ru": "RFL-GEN.PL.NTH-DATALL",
+              "gloss_index_ru": "STEM{bin}-GEN.PL.NTH{na}-DATALL{ŋa}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 18,
+          "off_end": 25,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "lobetolbetin",
+          "ana": [
+            {
+              "parts": "d-lobeto-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+            }
+          ],
+          "off_start": 26,
+          "off_end": 38,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 38,
+          "off_end": 39,
+          "next_word": 5
+        }
+      ],
+      "text": "1.3. lobetolbetin binnaŋa lobetolbetin.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 39,
+          "para_id": 2804
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.4.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "anat",
+          "ana": [
+            {
+              "parts": "anat",
+              "gloss": "",
+              "gloss_index": "STEM{anat}-",
+              "lex": "anat",
+              "trans_ru": "раньше",
+              "gloss_ru": "раньше",
+              "gloss_index_ru": "STEM{anat}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "kysnnaŋt",
+          "ana": [
+            {
+              "parts": "kỳsn-na-ŋt",
+              "gloss": "",
+              "gloss_index": "STEM{kỳsn}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
+              "lex": "kỳsn",
+              "trans_ru": "русский;",
+              "gloss_ru": "русский;-GEN.PL.NTH-DATLOC",
+              "gloss_index_ru": "STEM{kỳsn}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 10,
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "bən",
+          "ana": [
+            {
+              "parts": "bən",
+              "gloss": "",
+              "gloss_index": "NEG{bən}-",
+              "gloss_ru": "NEG",
+              "gloss_index_ru": "NEG{bən}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 19,
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "lobetolbetin",
+          "ana": [
+            {
+              "parts": "d-lobeto-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+            }
+          ],
+          "off_start": 23,
+          "off_end": 35,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 35,
+          "off_end": 36,
+          "next_word": 6
+        }
+      ],
+      "text": "1.4. anat kysnnaŋt bən lobetolbetin.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 36,
+          "para_id": 2805
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.5.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "binnaŋt",
+          "ana": [
+            {
+              "parts": "bin-na-ŋt",
+              "gloss": "",
+              "gloss_index": "STEM{bin}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
+              "lex": "bin",
+              "trans_ru": "RFL",
+              "gloss_ru": "RFL-GEN.PL.NTH-DATLOC",
+              "gloss_index_ru": "STEM{bin}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "lobetabetin",
+          "ana": [
+            {
+              "parts": "d-lobeta-∅-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-работа{lobet}-T.PRS{a}-PRS{∅}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-работаT.PRS-PRS-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PRS{a}-PRS{∅}-делать{bet}-EP{i}-S1.PL{n}-"
+            }
+          ],
+          "off_start": 13,
+          "off_end": 24,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 24,
+          "off_end": 25,
+          "next_word": 4
+        }
+      ],
+      "text": "1.5. binnaŋt lobetabetin.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 25,
+          "para_id": 2806
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.6.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "dasleneŋilbetin",
+          "ana": [
+            {
+              "parts": "d-asleneŋi-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.3{d}-STEM{asleneŋ}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.3-лодкаT.PST-PST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.3{d}-STEM{asleneŋ}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "lex": "asleneŋ",
+              "trans_ru": "лодка",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 20,
+          "next_word": 2,
+          "sentence_index": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 20,
+          "off_end": 21,
+          "next_word": 3
+        }
+      ],
+      "text": "1.6. dasleneŋilbetin.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 21,
+          "para_id": 2807
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.7.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "dyltijilbetin",
+          "ana": [
+            {
+              "parts": "d-dyltiji-l-bet-i--n",
+              "gloss": "",
+              "gloss_index": "S1.1{d}-STEM{dyltij}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gloss_ru": "S1.1-ветка.(лодка)T.PST-PST-делатьEP-S1.PL",
+              "gloss_index_ru": "S1.1{d}-STEM{dyltij}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "lex": "dyltij",
+              "trans_ru": "ветка (лодка)",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 18,
+          "next_word": 2,
+          "sentence_index": 0
+        }
+      ],
+      "text": "1.7. dyltijilbetin",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 2808
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 3,
+          "wf": "берег",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 9,
+          "wf": "вниз",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 14,
+          "wf": "люди",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "спустились",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 29,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 6
+        }
+      ],
+      "text": "На берег вниз люди спустились.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 30,
+          "para_id": 2802
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Всю",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 4,
+          "wf": "весну",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 10,
+          "wf": "рыбачили",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 18,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 4
+        }
+      ],
+      "text": "Всю весну рыбачили.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 19,
+          "para_id": 2803
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Работали",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 10,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 13,
+          "wf": "себя",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 18,
+          "wf": "работали",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "Работали, на себя работали",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 26,
+          "para_id": 2804
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Раньше",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 7,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 10,
+          "wf": "русских",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 18,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 21,
+          "wf": "работали",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 29,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 6
+        }
+      ],
+      "text": "Раньше на русских не работали.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 30,
+          "para_id": 2805
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 3,
+          "wf": "себя",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 8,
+          "wf": "работают",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 16,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 4
+        }
+      ],
+      "text": "На себя работают.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 17,
+          "para_id": 2806
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Лодки",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 6,
+          "wf": "делали",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 12,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 3
+        }
+      ],
+      "text": "Лодки делали.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 13,
+          "para_id": 2807
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ветки",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 6,
+          "wf": "делали",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "Ветки делали",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 12,
+          "para_id": 2808
+        }
+      ]
+    }
+  ]
+}

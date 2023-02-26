@@ -1,0 +1,918 @@
+{
+  "meta": {
+    "title": " Котусов Ветер с Дынды дул",
+    "filename": "corpus\\xml\\Ket.xml"
+  },
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "dyndadiŋal",
+          "ana": [
+            {
+              "parts": "dynda-di-ŋal",
+              "gloss": "",
+              "gloss_index": "STEM{dynda}-GEN.SG.NM{di}-ABL{ŋal}-",
+              "lex": "dynda",
+              "trans_ru": "Дында",
+              "gloss_ru": "Дында-GEN.SG.NM-ABL",
+              "gloss_index_ru": "STEM{dynda}-GEN.SG.NM{di}-ABL{ŋal}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ana",
+          "ana": [
+            {
+              "parts": "ana",
+              "gloss": "",
+              "gloss_index": "STEM{ana}-",
+              "lex": "ana",
+              "trans_ru": "обычно",
+              "gloss_ru": "обычно",
+              "gloss_index_ru": "STEM{ana}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 14,
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "1. dyndadiŋal ana",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 17,
+          "para_id": 1
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "2.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "dyndadiŋal",
+          "ana": [
+            {
+              "parts": "dynda-di-ŋal",
+              "gloss": "",
+              "gloss_index": "STEM{dynda}-GEN.SG.NM{di}-ABL{ŋal}-",
+              "lex": "dynda",
+              "trans_ru": "Дында",
+              "gloss_ru": "Дында-GEN.SG.NM-ABL",
+              "gloss_index_ru": "STEM{dynda}-GEN.SG.NM{di}-ABL{ŋal}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "an",
+          "ana": [
+            {
+              "parts": "an",
+              "gloss": "",
+              "gloss_index": "обычно{an}-",
+              "gloss_ru": "обычно",
+              "gloss_index_ru": "обычно{an}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 14,
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "2. dyndadiŋal an",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 16,
+          "para_id": 2
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "3.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "beːj",
+          "ana": [
+            {
+              "parts": "beːj",
+              "gloss": "",
+              "gloss_index": "STEM{beːj}-",
+              "lex": "beːj",
+              "trans_ru": "ветер",
+              "gloss_ru": "ветер",
+              "gloss_index_ru": "STEM{beːj}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "əga",
+          "ana": [
+            {
+              "parts": "əga",
+              "gloss": "",
+              "gloss_index": "STEM{əga}-",
+              "lex": "əga",
+              "trans_ru": "здесь",
+              "gloss_ru": "здесь",
+              "gloss_index_ru": "STEM{əga}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 8,
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "utonbej",
+          "ana": [
+            {
+              "parts": "uːto-n-b-beːj",
+              "gloss": "",
+              "gloss_index": "STEM{uːt}-T.PST{o}-PST{n}-S2.3SG.TH{b}-STEM{beːj}-",
+              "lex": "beːj",
+              "trans_ru": "ветер",
+              "gloss_ru": "верховья.рекиT.PSTPSTS2.3SG.TH-ветер",
+              "gloss_index_ru": "STEM{uːt}-T.PST{o}-PST{n}-S2.3SG.TH{b}-STEM{beːj}-",
+              "gr.pos": [
+                "n",
+                "<Not Sure>"
+              ]
+            }
+          ],
+          "off_start": 12,
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "3. beːj əga utonbej",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 19,
+          "para_id": 3
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "4.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "əga",
+          "ana": [
+            {
+              "parts": "əga",
+              "gloss": "",
+              "gloss_index": "STEM{əga}-",
+              "lex": "əga",
+              "trans_ru": "здесь",
+              "gloss_ru": "здесь",
+              "gloss_index_ru": "STEM{əga}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "utonbej",
+          "ana": [
+            {
+              "parts": "uːto-n-b-beːj",
+              "gloss": "",
+              "gloss_index": "STEM{uːt}-T.PST{o}-PST{n}-S2.3SG.TH{b}-STEM{beːj}-",
+              "lex": "beːj",
+              "trans_ru": "ветер",
+              "gloss_ru": "верховья.рекиT.PSTPSTS2.3SG.TH-ветер",
+              "gloss_index_ru": "STEM{uːt}-T.PST{o}-PST{n}-S2.3SG.TH{b}-STEM{beːj}-",
+              "gr.pos": [
+                "n",
+                "<Not Sure>"
+              ]
+            }
+          ],
+          "off_start": 7,
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "nima",
+          "ana": [
+            {
+              "parts": "nima",
+              "gloss": "",
+              "gloss_index": "STEM{nima}-",
+              "lex": "nima",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать.1SG",
+              "gloss_index_ru": "STEM{nima}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 15,
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "4. əga utonbej nima",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 19,
+          "para_id": 4
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "5.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ate",
+          "ana": [
+            {
+              "parts": "ate",
+              "gloss": "",
+              "gloss_index": "STEM{ate}-",
+              "lex": "ate",
+              "trans_ru": "естественно",
+              "gloss_ru": "естественно",
+              "gloss_index_ru": "STEM{ate}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "kaldo",
+          "ana": [
+            {
+              "parts": "k-al-do",
+              "gloss": "",
+              "gloss_index": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "gloss_ru": "DET-LVPST-смотреть",
+              "gloss_index_ru": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "lex": "do",
+              "trans_ru": "смотреть",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 7,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ka",
+          "ana": [
+            {
+              "parts": "ka",
+              "gloss": "",
+              "gloss_index": "-ка{ka}-",
+              "gloss_ru": "-ка",
+              "gloss_index_ru": "-ка{ka}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 13,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "5. ate kaldo ka",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 15,
+          "para_id": 5
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "6.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qot",
+          "ana": [
+            {
+              "parts": "qot",
+              "gloss": "",
+              "gloss_index": "STEM{qot}-",
+              "lex": "qot",
+              "trans_ru": "хоть",
+              "gloss_ru": "хоть",
+              "gloss_index_ru": "STEM{qot}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "kaldo",
+          "ana": [
+            {
+              "parts": "k-al-do",
+              "gloss": "",
+              "gloss_index": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "gloss_ru": "DET-LVPST-смотреть",
+              "gloss_index_ru": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "lex": "do",
+              "trans_ru": "смотреть",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 7,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "nu",
+          "ana": [
+            {
+              "parts": "nu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 13,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ka",
+          "ana": [
+            {
+              "parts": "ka",
+              "gloss": "",
+              "gloss_index": "-ка{ka}-",
+              "gloss_ru": "-ка",
+              "gloss_index_ru": "-ка{ka}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 16,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "6. qot kaldo nu ka",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 6
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "7.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qot",
+          "ana": [
+            {
+              "parts": "qot",
+              "gloss": "",
+              "gloss_index": "STEM{qot}-",
+              "lex": "qot",
+              "trans_ru": "хоть",
+              "gloss_ru": "хоть",
+              "gloss_index_ru": "STEM{qot}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "kaldo",
+          "ana": [
+            {
+              "parts": "k-al-do",
+              "gloss": "",
+              "gloss_index": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "gloss_ru": "DET-LVPST-смотреть",
+              "gloss_index_ru": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "lex": "do",
+              "trans_ru": "смотреть",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 7,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "nu",
+          "ana": [
+            {
+              "parts": "nu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 13,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ka",
+          "ana": [
+            {
+              "parts": "ka",
+              "gloss": "",
+              "gloss_index": "-ка{ka}-",
+              "gloss_ru": "-ка",
+              "gloss_index_ru": "-ка{ka}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 16,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "7. qot kaldo nu ka",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 7
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "8.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qot",
+          "ana": [
+            {
+              "parts": "qot",
+              "gloss": "",
+              "gloss_index": "STEM{qot}-",
+              "lex": "qot",
+              "trans_ru": "хоть",
+              "gloss_ru": "хоть",
+              "gloss_index_ru": "STEM{qot}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "kaldo",
+          "ana": [
+            {
+              "parts": "k-al-do",
+              "gloss": "",
+              "gloss_index": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "gloss_ru": "DET-LVPST-смотреть",
+              "gloss_index_ru": "DET{k}-LV{a}-PST{l}-STEM{do}-",
+              "lex": "do",
+              "trans_ru": "смотреть",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 7,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "nu",
+          "ana": [
+            {
+              "parts": "nu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 13,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ka",
+          "ana": [
+            {
+              "parts": "ka",
+              "gloss": "",
+              "gloss_index": "-ка{ka}-",
+              "gloss_ru": "-ка",
+              "gloss_index_ru": "-ка{ka}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 16,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "8. qot kaldo nu ka",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 8
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "С",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 2,
+          "wf": "Дынды",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "С Дынды",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 7,
+          "para_id": 1
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "С",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 2,
+          "wf": "Дынды",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 7,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 9,
+          "wf": "бывало",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 15,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 16,
+          "next_word": 5
+        }
+      ],
+      "text": "С Дынды, бывало.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 16,
+          "para_id": 2
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ветер",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 6,
+          "wf": "сюда",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 11,
+          "wf": "дул",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "Ветер сюда дул",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 14,
+          "para_id": 3
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Сюда",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 5,
+          "wf": "дул",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 10,
+          "wf": "подумал",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "Сюда дул, подумал",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 17,
+          "para_id": 4
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вроде",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 6,
+          "wf": "посмотри-ка",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "Вроде посмотри-ка",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 17,
+          "para_id": 5
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 6
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 7
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 8
+        }
+      ]
+    }
+  ]
+}

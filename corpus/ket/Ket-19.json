@@ -1,0 +1,704 @@
+{
+  "meta": {
+    "title": "Коганов В.Н. На охоте 2015 ",
+    "filename": "corpus\\xml\\Ket.xml"
+  },
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.1.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "kəˀj",
+          "ana": [
+            {
+              "parts": "kəˀj",
+              "gloss": "",
+              "gloss_index": "STEM{kəˀj}-",
+              "lex": "kəˀj",
+              "trans_ru": "охота",
+              "gloss_ru": "охота",
+              "gloss_index_ru": "STEM{kəˀj}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "kəˀj",
+          "ana": [
+            {
+              "parts": "kəˀj",
+              "gloss": "",
+              "gloss_index": "STEM{kəˀj}-",
+              "lex": "kəˀj",
+              "trans_ru": "охота",
+              "gloss_ru": "охота",
+              "gloss_index_ru": "STEM{kəˀj}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 10,
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "baˀŋ",
+          "ana": [
+            {
+              "parts": "baˀŋ",
+              "gloss": "",
+              "gloss_index": "STEM{baˀŋ}-",
+              "lex": "baˀŋ",
+              "trans_ru": "где",
+              "gloss_ru": "где",
+              "gloss_index_ru": "STEM{baˀŋ}-",
+              "gr.pos": "???"
+            }
+          ],
+          "off_start": 15,
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "tiːb",
+          "ana": [
+            {
+              "parts": "tiːb",
+              "gloss": "",
+              "gloss_index": "STEM{tiːb}-",
+              "lex": "tiːb",
+              "trans_ru": "собака",
+              "gloss_ru": "собака",
+              "gloss_index_ru": "STEM{tiːb}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 20,
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "dujaqut",
+          "ana": [
+            {
+              "parts": "du-j-a-∅-qut",
+              "gloss": "",
+              "gloss_index": "S1.3{du}-O2.3SG.M.CORF{j}-T.PRS{a}-PRS{∅}-STEM{qut}-",
+              "gloss_ru": "S1.3-O2.3SG.M.CORF-T.PRS-PRS-LV",
+              "gloss_index_ru": "S1.3{du}-O2.3SG.M.CORF{j}-T.PRS{a}-PRS{∅}-STEM{qut}-",
+              "lex": "qut",
+              "trans_ru": "LV",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 25,
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qote",
+          "ana": [
+            {
+              "parts": "qote",
+              "gloss": "",
+              "gloss_index": "STEM{qote}-",
+              "lex": "qote",
+              "trans_ru": "вверх",
+              "gloss_ru": "вверх",
+              "gloss_index_ru": "STEM{qote}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 33,
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 37,
+          "off_end": 38,
+          "next_word": 8
+        }
+      ],
+      "text": "1.1. kəˀj kəˀj baˀŋ tiːb dujaqut qote.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 38,
+          "para_id": 1902
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.2.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "at",
+          "ana": [
+            {
+              "parts": "at",
+              "gloss": "",
+              "gloss_index": "STEM{at}-",
+              "lex": "at",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG",
+              "gloss_index_ru": "STEM{at}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "tuntan",
+          "ana": [
+            {
+              "parts": "tuntan",
+              "gloss": "",
+              "gloss_index": "STEM{tuntan}-",
+              "lex": "tuntan",
+              "trans_ru": "туда",
+              "gloss_ru": "туда",
+              "gloss_index_ru": "STEM{tuntan}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 8,
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "bogotn",
+          "ana": [
+            {
+              "parts": "bo-k-a-∅-tn",
+              "gloss": "",
+              "gloss_index": "S3.1SG{bo}-DET{k}-T.PRS{a}-PRS{∅}- идти {tn}-",
+              "gloss_ru": "S3.1SG-DET-T.PRS-PRS- идти ",
+              "gloss_index_ru": "S3.1SG{bo}-DET{k}-T.PRS{a}-PRS{∅}- идти {tn}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 15,
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 21,
+          "off_end": 22,
+          "next_word": 5
+        }
+      ],
+      "text": "1.2. at tuntan bogotn.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 22,
+          "para_id": 1903
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.3.",
+          "off_start": 0,
+          "off_end": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "a",
+          "ana": [
+            {
+              "parts": "a",
+              "gloss": "",
+              "gloss_index": "а{a}-",
+              "gloss_ru": "а",
+              "gloss_index_ru": "а{a}-",
+              "gr.pos": "conn"
+            }
+          ],
+          "off_start": 5,
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "wtype": "word",
+          "wf": "nima",
+          "ana": [
+            {
+              "parts": "nima",
+              "gloss": "",
+              "gloss_index": "STEM{nima}-",
+              "lex": "nima",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать.1SG",
+              "gloss_index_ru": "STEM{nima}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 7,
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "wtype": "word",
+          "wf": "mana",
+          "ana": [
+            {
+              "parts": "mana",
+              "gloss": "",
+              "gloss_index": "STEM{mana}-",
+              "lex": "mana",
+              "trans_ru": "говорить.3SG.F",
+              "gloss_ru": "говорить.3SG.F.PRS",
+              "gloss_index_ru": "STEM{mana}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 12,
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "qaje",
+          "ana": [
+            {
+              "parts": "qaje",
+              "gloss": "",
+              "gloss_index": "STEM{qaje}-",
+              "lex": "qaje",
+              "trans_ru": "потом",
+              "gloss_ru": "потом",
+              "gloss_index_ru": "STEM{qaje}-",
+              "gr.pos": "DM"
+            }
+          ],
+          "off_start": 17,
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "qajdiŋtin",
+          "ana": [
+            {
+              "parts": "qàj-di-ŋtin",
+              "gloss": "",
+              "gloss_index": "STEM{qàj}-GEN.SG.NM{di}-DATLOC{ŋtin}-",
+              "lex": "qàj",
+              "trans_ru": "лось",
+              "gloss_ru": "лось-GEN.SG.NM-DATLOC",
+              "gloss_index_ru": "STEM{qàj}-GEN.SG.NM{di}-DATLOC{ŋtin}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 22,
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "daadun",
+          "ana": [
+            {
+              "parts": "d-d-a-a-∅-dun",
+              "gloss": "",
+              "gloss_index": "S1.3M{d}-DET{d}-T.PRS{a}-O2.3SG.M.CORF{a}-PRS{∅}-STEM{dun}-",
+              "gloss_ru": "S1.3M-DET-T.PRS-O2.3SG.M.CORF-PRS-крикнуть",
+              "gloss_index_ru": "S1.3M{d}-DET{d}-T.PRS{a}-O2.3SG.M.CORF{a}-PRS{∅}-STEM{dun}-",
+              "lex": "dun",
+              "trans_ru": "крикнуть",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 32,
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "desij",
+          "ana": [
+            {
+              "parts": "d-ees∅-ij-∅",
+              "gloss": "",
+              "gloss_index": "S1.3M{d}-STEM{ees}-PRS{∅}-STEM{ij}-S1.SG{∅}-",
+              "gloss_ru": "S1.3M-крикPRS-LV-S1.SG",
+              "gloss_index_ru": "S1.3M{d}-STEM{ees}-PRS{∅}-STEM{ij}-S1.SG{∅}-",
+              "lex": "ij",
+              "trans_ru": "LV",
+              "gr.pos": [
+                "n",
+                "v"
+              ]
+            }
+          ],
+          "off_start": 39,
+          "off_end": 44,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "ab",
+          "ana": [
+            {
+              "parts": "ab",
+              "gloss": "",
+              "gloss_index": "STEM{ab}-",
+              "lex": "ab",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG.POSS",
+              "gloss_index_ru": "STEM{ab}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 45,
+          "off_end": 47,
+          "next_word": 9,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "haŋ",
+          "ana": [
+            {
+              "parts": "haŋ",
+              "gloss": "",
+              "gloss_index": "STEM{haŋ}-",
+              "lex": "haŋ",
+              "trans_ru": "сучка",
+              "gloss_ru": "сучка",
+              "gloss_index_ru": "STEM{haŋ}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 48,
+          "off_end": 51,
+          "next_word": 10,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "1.3. a nima mana qaje qajdiŋtin daadun desij ab haŋ",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 51,
+          "para_id": 1904
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 3,
+          "wf": "охоте",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 10,
+          "wf": "охоте",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 16,
+          "wf": "собака",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 23,
+          "wf": "впереди",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 31,
+          "wf": "бегает",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "На охоте, охоте собака впереди бегает",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 37,
+          "para_id": 1902
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 2,
+          "wf": "туда",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 7,
+          "wf": "пойду",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 12,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 4
+        }
+      ],
+      "text": "Я туда пойду.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 13,
+          "para_id": 1903
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 2,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 4,
+          "wf": "подумал",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 12,
+          "wf": "мол",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 16,
+          "wf": "потом",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 22,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 25,
+          "wf": "лося",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 30,
+          "wf": "кричит",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 36,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 38,
+          "wf": "кричит",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 45,
+          "wf": "моя",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 49,
+          "wf": "сучка",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "А я подумал мол потом на лося кричит, кричит моя сучка",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 54,
+          "para_id": 1904
+        }
+      ]
+    }
+  ]
+}

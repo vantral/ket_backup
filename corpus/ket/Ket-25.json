@@ -1,0 +1,1701 @@
+{
+  "meta": {
+    "title": "Котусов А.М. Песня Березы",
+    "filename": "corpus\\xml\\Ket.xml"
+  },
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "1.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 8,
+          "off_end": 10,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 11,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 16,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 19,
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 24,
+          "off_end": 26,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 26,
+          "off_end": 27,
+          "next_word": 8
+        }
+      ],
+      "text": "1. usan ee usan ee usan ee.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 27,
+          "para_id": 1999
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "2.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "at",
+          "ana": [
+            {
+              "parts": "at",
+              "gloss": "",
+              "gloss_index": "STEM{at}-",
+              "lex": "at",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG",
+              "gloss_index_ru": "STEM{at}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "ej",
+          "ana": [
+            {
+              "parts": "ej",
+              "gloss": "",
+              "gloss_index": "STEM{ej}-",
+              "lex": "ej",
+              "trans_ru": "бегать",
+              "gloss_ru": "бегать",
+              "gloss_index_ru": "STEM{ej}-",
+              "gr.pos": [
+                "<Not Sure>",
+                "v"
+              ]
+            }
+          ],
+          "off_start": 6,
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "seeŋ",
+          "ana": [
+            {
+              "parts": "seeŋ",
+              "gloss": "",
+              "gloss_index": "STEM{seeŋ}-",
+              "lex": "seeŋ",
+              "trans_ru": "здесь",
+              "gloss_ru": "здесь",
+              "gloss_index_ru": "STEM{seeŋ}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 9,
+          "off_end": 13,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "nrzb",
+          "ana": [
+            {
+              "parts": "nrzb",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 14,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "at",
+          "ana": [
+            {
+              "parts": "at",
+              "gloss": "",
+              "gloss_index": "STEM{at}-",
+              "lex": "at",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG",
+              "gloss_index_ru": "STEM{at}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 19,
+          "off_end": 21,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "dikkən",
+          "ana": [
+            {
+              "parts": "di-k-∅-kən-∅",
+              "gloss": "",
+              "gloss_index": "S1.1{di}-DET{k}-PRS{∅}-STEM{kən}-S1.SG{∅}-",
+              "gloss_ru": "S1.1-DET-PRS-садиться-S1.SG",
+              "gloss_index_ru": "S1.1{di}-DET{k}-PRS{∅}-STEM{kən}-S1.SG{∅}-",
+              "lex": "kən",
+              "trans_ru": "садиться",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 22,
+          "off_end": 28,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "uu",
+          "ana": [
+            {
+              "parts": "uu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 29,
+          "off_end": 31,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 31,
+          "off_end": 32,
+          "next_word": 9
+        }
+      ],
+      "text": "2. at ej seeŋ nrzb at dikkən uu.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 32,
+          "para_id": 2000
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "3.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qimdyl",
+          "ana": [
+            {
+              "parts": "qiːmdyːl",
+              "gloss": "",
+              "gloss_index": "STEM{qiːm}-STEM{dyːl}-",
+              "lex": "dyːl",
+              "trans_ru": "ребенок",
+              "gloss_ru": "женщинаребенок",
+              "gloss_index_ru": "STEM{qiːm}-STEM{dyːl}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "aa",
+          "ana": [
+            {
+              "parts": "aa",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 10,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "bil",
+          "ana": [
+            {
+              "parts": "bil",
+              "gloss": "",
+              "gloss_index": "STEM{bil}-",
+              "lex": "bil",
+              "trans_ru": "далеко",
+              "gloss_ru": "далеко",
+              "gloss_index_ru": "STEM{bil}-",
+              "gr.pos": "adv"
+            }
+          ],
+          "off_start": 13,
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "uu",
+          "ana": [
+            {
+              "parts": "uu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 17,
+          "off_end": 19,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "bat",
+          "ana": [
+            {
+              "parts": "bat",
+              "gloss": "",
+              "gloss_index": "бывало{bat}-",
+              "gloss_ru": "бывало",
+              "gloss_index_ru": "бывало{bat}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 20,
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "oo",
+          "ana": [
+            {
+              "parts": "oo",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 24,
+          "off_end": 26,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qonesitonoq",
+          "ana": [
+            {
+              "parts": "qonesi-t-o-n-oq",
+              "gloss": "",
+              "gloss_index": "STEM{qones}-S3.3SG.F{i}-DET{t}-T.PST{o}-PST{n}-STEM{oq}-",
+              "lex": "oq",
+              "trans_ru": "LV",
+              "gloss_ru": "потерятьсяS3.3SG.F-DET-T.PSTPSTLV",
+              "gloss_index_ru": "STEM{qones}-S3.3SG.F{i}-DET{t}-T.PST{o}-PST{n}-STEM{oq}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 27,
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 38,
+          "off_end": 39,
+          "next_word": 9
+        }
+      ],
+      "text": "3. qimdyl aa bil uu bat oo qonesitonoq.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 39,
+          "para_id": 2001
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "4.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qonesitonoq",
+          "ana": [
+            {
+              "parts": "qonesi-t-o-n-oq",
+              "gloss": "",
+              "gloss_index": "STEM{qones}-S3.3SG.F{i}-DET{t}-T.PST{o}-PST{n}-STEM{oq}-",
+              "lex": "oq",
+              "trans_ru": "LV",
+              "gloss_ru": "потерятьсяS3.3SG.F-DET-T.PSTPSTLV",
+              "gloss_index_ru": "STEM{qones}-S3.3SG.F{i}-DET{t}-T.PST{o}-PST{n}-STEM{oq}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "aj",
+          "ana": [
+            {
+              "parts": "aj",
+              "gloss": "",
+              "gloss_index": "STEM{aj}-",
+              "lex": "aj",
+              "trans_ru": "NEG",
+              "gloss_ru": "NEG",
+              "gloss_index_ru": "STEM{aj}-",
+              "gr.pos": [
+                "<Not Sure>",
+                "prenoun"
+              ]
+            }
+          ],
+          "off_start": 15,
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "abil",
+          "ana": [
+            {
+              "parts": "ab-il",
+              "gloss": "",
+              "gloss_index": "STEM{ab}-ABL{il}-",
+              "lex": "ab",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG.POSS-ABL",
+              "gloss_index_ru": "STEM{ab}-ABL{il}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 18,
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "uu",
+          "ana": [
+            {
+              "parts": "uu",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 23,
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        }
+      ],
+      "text": "4. qonesitonoq aj abil uu",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 25,
+          "para_id": 2002
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "5.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "bu",
+          "ana": [
+            {
+              "parts": "b-u",
+              "gloss": "",
+              "gloss_index": "",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "tam",
+          "ana": [
+            {
+              "parts": "tam",
+              "gloss": "",
+              "gloss_index": "STEM{tam}-",
+              "lex": "tam",
+              "trans_ru": "или",
+              "gloss_ru": "или",
+              "gloss_index_ru": "STEM{tam}-",
+              "gr.pos": "conn"
+            }
+          ],
+          "off_start": 6,
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "biltan",
+          "ana": [
+            {
+              "parts": "biltan",
+              "gloss": "",
+              "gloss_index": "STEM{biltan}-",
+              "lex": "biltan",
+              "trans_ru": "куда",
+              "gloss_ru": "куда",
+              "gloss_index_ru": "STEM{biltan}-",
+              "gr.pos": "coordconn"
+            }
+          ],
+          "off_start": 10,
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "bat",
+          "ana": [
+            {
+              "parts": "bat",
+              "gloss": "",
+              "gloss_index": "бывало{bat}-",
+              "gloss_ru": "бывало",
+              "gloss_index_ru": "бывало{bat}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 17,
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "ugonden",
+          "ana": [
+            {
+              "parts": "u-k-o-n-den",
+              "gloss": "",
+              "gloss_index": "S3.3SH.F{u}-DET{k}-T.PST{o}-PST{n}-STEM{den}-",
+              "gloss_ru": "S3.3SH.F-DET-T.PSTPSTLV",
+              "gloss_index_ru": "S3.3SH.F{u}-DET{k}-T.PST{o}-PST{n}-STEM{den}-",
+              "lex": "den",
+              "trans_ru": "LV",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 21,
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "huu",
+          "ana": [
+            {
+              "parts": "huu",
+              "gloss": "",
+              "gloss_index": "STEM{huu}-",
+              "lex": "huu",
+              "trans_ru": "RHYTM",
+              "gloss_ru": "RHYTM",
+              "gloss_index_ru": "STEM{huu}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 29,
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 32,
+          "off_end": 33,
+          "next_word": 8
+        }
+      ],
+      "text": "5. bu tam biltan bat ugonden huu.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 33,
+          "para_id": 2003
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "6.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "at",
+          "ana": [
+            {
+              "parts": "at",
+              "gloss": "",
+              "gloss_index": "STEM{at}-",
+              "lex": "at",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG",
+              "gloss_index_ru": "STEM{at}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "ej",
+          "ana": [
+            {
+              "parts": "ej",
+              "gloss": "",
+              "gloss_index": "STEM{ej}-",
+              "lex": "ej",
+              "trans_ru": "RHYTM",
+              "gloss_ru": "RHYTM",
+              "gloss_index_ru": "STEM{ej}-",
+              "gr.pos": [
+                "<Not Sure>",
+                "v"
+              ]
+            }
+          ],
+          "off_start": 6,
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "bən",
+          "ana": [
+            {
+              "parts": "bən",
+              "gloss": "",
+              "gloss_index": "NEG{bən}-",
+              "gloss_ru": "NEG",
+              "gloss_index_ru": "NEG{bən}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 9,
+          "off_end": 12,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "itbadam",
+          "ana": [
+            {
+              "parts": "itba--d-am",
+              "gloss": "",
+              "gloss_index": "STEM{it}-O3.1SG{ba}-EP{d}-STEM{am}-",
+              "lex": "am",
+              "trans_ru": "LV",
+              "gloss_ru": "знатьO3.1SG-EPLV",
+              "gloss_index_ru": "STEM{it}-O3.1SG{ba}-EP{d}-STEM{am}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 13,
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 20,
+          "off_end": 21,
+          "next_word": 6
+        }
+      ],
+      "text": "6. at ej bən itbadam.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 21,
+          "para_id": 2004
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "7.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 8,
+          "off_end": 10,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 11,
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 16,
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "usan",
+          "ana": [
+            {
+              "parts": "ùs-a--n",
+              "gloss": "",
+              "gloss_index": "STEM{ùs}-EP{a}-PL{n}-",
+              "lex": "ùs",
+              "trans_ru": "береза",
+              "gloss_ru": "березаEP-PL",
+              "gloss_index_ru": "STEM{ùs}-EP{a}-PL{n}-",
+              "gr.pos": "n"
+            }
+          ],
+          "off_start": 19,
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ee",
+          "ana": [
+            {
+              "parts": "ee",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 24,
+          "off_end": 26,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 26,
+          "off_end": 27,
+          "next_word": 8
+        }
+      ],
+      "text": "7. usan ee usan ee usan ee.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 27,
+          "para_id": 2005
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "8.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "at",
+          "ana": [
+            {
+              "parts": "at",
+              "gloss": "",
+              "gloss_index": "STEM{at}-",
+              "lex": "at",
+              "trans_ru": "1SG",
+              "gloss_ru": "1SG",
+              "gloss_index_ru": "STEM{at}-",
+              "gr.pos": "pro"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "ej",
+          "ana": [
+            {
+              "parts": "ej",
+              "gloss": "",
+              "gloss_index": "STEM{ej}-",
+              "lex": "ej",
+              "trans_ru": "бегать",
+              "gloss_ru": "бегать",
+              "gloss_index_ru": "STEM{ej}-",
+              "gr.pos": [
+                "<Not Sure>",
+                "v"
+              ]
+            }
+          ],
+          "off_start": 6,
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "nima",
+          "ana": [
+            {
+              "parts": "nima",
+              "gloss": "",
+              "gloss_index": "STEM{nima}-",
+              "lex": "nima",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать.1SG",
+              "gloss_index_ru": "STEM{nima}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 9,
+          "off_end": 13,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "əkŋaŋ",
+          "ana": [
+            {
+              "parts": "əkŋ-aŋ",
+              "gloss": "",
+              "gloss_index": "STEM{əkŋ}-DATALL{aŋ}-",
+              "lex": "əkŋ",
+              "trans_ru": "2PL",
+              "gloss_ru": "2PL-DATALL",
+              "gloss_index_ru": "STEM{əkŋ}-DATALL{aŋ}-",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 14,
+          "off_end": 19,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "aa",
+          "ana": [
+            {
+              "parts": "aa",
+              "gloss": "",
+              "gloss_index": ""
+            }
+          ],
+          "off_start": 20,
+          "off_end": 22,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 22,
+          "off_end": 23,
+          "next_word": 7
+        }
+      ],
+      "text": "8. at ej nima əkŋaŋ aa.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 23,
+          "para_id": 2006
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "9.",
+          "off_start": 0,
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "bu",
+          "ana": [
+            {
+              "parts": "b-u",
+              "gloss": "",
+              "gloss_index": "",
+              "gr.pos": "<Not Sure>"
+            }
+          ],
+          "off_start": 3,
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "biltan",
+          "ana": [
+            {
+              "parts": "biltan",
+              "gloss": "",
+              "gloss_index": "STEM{biltan}-",
+              "lex": "biltan",
+              "trans_ru": "куда",
+              "gloss_ru": "куда",
+              "gloss_index_ru": "STEM{biltan}-",
+              "gr.pos": "coordconn"
+            }
+          ],
+          "off_start": 6,
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "bat",
+          "ana": [
+            {
+              "parts": "bat",
+              "gloss": "",
+              "gloss_index": "бывало{bat}-",
+              "gloss_ru": "бывало",
+              "gloss_index_ru": "бывало{bat}-",
+              "gr.pos": "prt"
+            }
+          ],
+          "off_start": 13,
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ugon",
+          "ana": [
+            {
+              "parts": "u-k-o-tn",
+              "gloss": "",
+              "gloss_index": "S3.3SH.F{u}-DET{k}-T.PST{o}- идти {tn}-",
+              "gloss_ru": "S3.3SH.F-DET-T.PST идти ",
+              "gloss_index_ru": "S3.3SH.F{u}-DET{k}-T.PST{o}- идти {tn}-",
+              "gr.pos": "v"
+            }
+          ],
+          "off_start": 17,
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "wtype": "punct",
+          "wf": ".",
+          "off_start": 21,
+          "off_end": 22,
+          "next_word": 6
+        }
+      ],
+      "text": "9. bu biltan bat ugon.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 22,
+          "para_id": 2007
+        }
+      ]
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "punct",
+          "wf": "18.",
+          "off_start": 0,
+          "off_end": 3,
+          "next_word": 1
+        }
+      ],
+      "text": "18.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 3,
+          "para_id": 2008
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Березы",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 6,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 8,
+          "wf": "березы",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 14,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 16,
+          "wf": "березы",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 22,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 6
+        }
+      ],
+      "text": "Березы, березы, березы.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 23,
+          "para_id": 1999
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 2,
+          "wf": "здесь",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 8,
+          "wf": "стою",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 12,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 4
+        }
+      ],
+      "text": "Я здесь стою.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 13,
+          "para_id": 2000
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Девушка",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 8,
+          "wf": "далеко",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 15,
+          "wf": "потерялась",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 25,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 4
+        }
+      ],
+      "text": "Девушка далеко потерялась.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 26,
+          "para_id": 2001
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "От",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 3,
+          "wf": "меня",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 8,
+          "wf": "потерялась",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 18,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 4
+        }
+      ],
+      "text": "От меня потерялась.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 19,
+          "para_id": 2002
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Куда",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 5,
+          "wf": "она",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 9,
+          "wf": "ушла",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 13,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 4
+        }
+      ],
+      "text": "Куда она ушла.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 14,
+          "para_id": 2003
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 2,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 5,
+          "wf": "знаю",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 9,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 4
+        }
+      ],
+      "text": "Я не знаю.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 10,
+          "para_id": 2004
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "‎‎",
+          "wtype": "punct",
+          "off_end": 2,
+          "next_word": 1
+        },
+        {
+          "off_start": 2,
+          "wf": "Березы",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 10,
+          "wf": "березы",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 16,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 18,
+          "wf": "березы",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 24,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 7
+        }
+      ],
+      "text": "‎‎Березы, березы, березы.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 25,
+          "para_id": 2005
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 2,
+          "wf": "сказал",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 9,
+          "wf": "вам",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 12,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 4
+        }
+      ],
+      "text": "Я сказал вам.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 13,
+          "para_id": 2006
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Куда",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 5,
+          "wf": "она",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 9,
+          "wf": "ушла",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 13,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 4
+        }
+      ],
+      "text": "Куда она ушла.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 14,
+          "para_id": 2007
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 2008
+        }
+      ]
+    }
+  ]
+}
