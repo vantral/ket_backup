@@ -17,33 +17,34 @@ Interface translations compiled.
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:7343
- * Running on http://172.22.0.2:7343
+ * Running on http://172.22.0.3:7343
 [33mPress CTRL+C to quit[0m
 /tsakorpus/search/search_engine/client.py:188: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
   return self.es.ping()
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/img/search_in_progress.gif HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:27] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:28] "GET /get_word_fields HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:28] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "GET /search HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/css/search.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/css/span_styles.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/css/gramm_gloss_selection.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/js/common_interface_functions.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/js/virtual_keyboards.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/js/result_parser.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/js/json_loaders.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/js/query_share_load.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:28] "[36mGET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "[36mGET /static/d3/d3.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "[36mGET /static/js/word_stats.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "[36mGET /static/js/select_subcorpus.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "[36mGET /static/img/search_in_progress.gif HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:44:29] "GET /get_word_fields HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:44:33] "GET /get_gloss_selector/ket HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:44:33] "[36mGET /static/js/select_gloss.js HTTP/1.0[0m" 304 -
 /tsakorpus/search/search_engine/client.py:102: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
   hits = self.es.search(index=self.name + '.sentences',
 /tsakorpus/search/search_engine/client.py:102: ElasticsearchWarning: As of version 7.0 Elasticsearch will require that a [field] parameter is provided when a [seed] is set
@@ -52,602 +53,26 @@ Interface translations compiled.
   hits = self.es.search(index=self.name + '.sentences',
 /tsakorpus/search/search_engine/client.py:137: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
   hits = self.es.search(index=self.name + '.docs',
-172.22.0.1 - - [13/Feb/2023 21:28:29] "GET /search_sent?n_words=1&random_seed=145820&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:28:37] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
-172.22.0.1 - - [13/Feb/2023 21:40:21] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:50:36] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
-172.22.0.1 - - [13/Feb/2023 21:50:40] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:26] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
-172.22.0.1 - - [13/Feb/2023 21:54:29] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:32] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:33] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:33] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:33] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:34] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:54:34] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [13/Feb/2023 21:59:57] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-88.210.11.212 - - [13/Feb/2023 22:00:26] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [13/Feb/2023 22:02:37] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-198.199.119.128 - - [14/Feb/2023 00:45:12] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-198.199.119.128 - - [14/Feb/2023 00:45:12] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-87.236.176.151 - - [14/Feb/2023 03:55:15] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [14/Feb/2023 07:02:09] "[33mGET / HTTP/1.1[0m" 404 -
-192.241.230.8 - - [14/Feb/2023 08:46:10] "[33mGET / HTTP/1.1[0m" 404 -
-185.142.236.34 - - [14/Feb/2023 09:04:15] code 400, message Bad request syntax ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03\x8eh³#\x02u©õwïàY\x8d¿:\x18>×\x93\x89lïØÔY×¥/)ô\x95\x86\x00\x00rÀ0À,À(À$À\x14À')
-185.142.236.34 - - [14/Feb/2023 09:04:15] "[35m[1m ô  ðh³#u©õwïàY¿:>×lïØÔY×¥/)ô  rÀ0À,À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
-185.142.236.34 - - [14/Feb/2023 09:04:18] "[33mGET / HTTP/1.1[0m" 404 -
-185.142.236.34 - - [14/Feb/2023 09:04:26] code 400, message Bad request syntax ('\x03\x92Nëc\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
-185.142.236.34 - - [14/Feb/2023 09:04:26] "[35m[1mNëc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [14/Feb/2023 12:12:33] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /static/img/search_in_progress.gif HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
-172.22.0.1 - - [14/Feb/2023 12:16:40] "GET /get_word_fields HTTP/1.0" 200 -
-/tsakorpus/search/search_engine/client.py:86: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
-  hits = self.es.search(index=self.name + '.docs',
-172.22.0.1 - - [14/Feb/2023 12:16:47] "GET /search_doc?n_words=1&random_seed=22162&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:17:02] "GET /doc_stats/undefined/ket?n_words=1&random_seed=22162&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:17:06] "GET /search_doc?n_words=1&random_seed=22162&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-/tsakorpus/search/search_engine/client.py:77: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
-  hits = self.es.search(index=self.name + '.words',
-/tsakorpus/search/search_engine/client.py:77: ElasticsearchWarning: As of version 7.0 Elasticsearch will require that a [field] parameter is provided when a [seed] is set
-  hits = self.es.search(index=self.name + '.words',
-/tsakorpus/search/search_engine/client.py:77: ElasticsearchWarning: Loading the fielddata on the _id field is deprecated and will be removed in future versions. If you require sorting or aggregating on this field you should also include the id in the body of your documents, and map this field as a keyword field that has [doc_values] enabled
-  hits = self.es.search(index=self.name + '.words',
-172.22.0.1 - - [14/Feb/2023 12:17:37] "GET /search_word?n_words=1&random_seed=22162&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:17:50] "GET /search_sent?n_words=1&random_seed=22162&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:17:57] "GET /docs/61 HTTP/1.0" 200 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/js/common_interface_functions.js HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/css/gramm_gloss_selection.css HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "[36mGET /static/css/search.css HTTP/1.0[0m" 304 -
-172.22.0.1 - - [14/Feb/2023 12:17:58] "GET /static/js/fulltext.js HTTP/1.0" 200 -
-139.59.165.167 - - [14/Feb/2023 15:47:16] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
-139.59.165.167 - - [14/Feb/2023 15:47:16] "[35m[1m       [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:16] "[33mGET / HTTP/1.0[0m" 404 -
-139.59.165.167 - - [14/Feb/2023 15:47:16] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:16] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:16] code 400, message Bad request version ('\x00/\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:16] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:16] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:16] "[35m[1m u      f  e  d  c  b  :  9  8  5  4  3  2  /                        [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:18] code 400, message Bad request syntax ('JRMI\x00\x02K')
-139.59.165.167 - - [14/Feb/2023 15:47:18] "[35m[1mJRMI K[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:19] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
-139.59.165.167 - - [14/Feb/2023 15:47:19] "[35m[1m      [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:19] code 400, message Bad request syntax ('#ST')
-139.59.165.167 - - [14/Feb/2023 15:47:19] "[35m[1m#ST[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:21] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:21] "[35m[1mA   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:21] code 400, message Bad HTTP/0.9 request type ('show')
-139.59.165.167 - - [14/Feb/2023 15:47:21] "[35m[1mshow info[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:23] code 400, message Bad HTTP/0.9 request type ('\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:23] "[35m[1m n    beio[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:23] "[33mOPTIONS / HTTP/1.0[0m" 404 -
-139.59.165.167 - - [14/Feb/2023 15:47:23] code 400, message Bad request version ('RTSP/1.0')
-139.59.165.167 - - [14/Feb/2023 15:47:23] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:25] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:25] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:26] code 400, message Bad HTTP/0.9 request type ('\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:26] "[35m[1m          versionbind   [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:28] code 400, message Bad HTTP/0.9 request type ('\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:28] "[35m[1m            [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:28] code 400, message Bad request syntax ('HELP')
-139.59.165.167 - - [14/Feb/2023 15:47:28] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
-139.59.165.167 - - [14/Feb/2023 15:47:28] "[35m[1m  *%à     Cookie: mstshash=beio[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:28] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
-139.59.165.167 - - [14/Feb/2023 15:47:28] "[35m[1m   qjn0k¡¢[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:30] code 400, message Bad request version ('0.12\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:30] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:31] code 400, message Bad HTTP/0.9 request type ('l\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:31] "[35m[1ml          [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:31] "[33mGET /nice%20ports,/Trinity.txt.bak HTTP/1.0[0m" 404 -
-139.59.165.167 - - [14/Feb/2023 15:47:31] code 400, message Bad request syntax ('\x01default')
-139.59.165.167 - - [14/Feb/2023 15:47:31] "[35m[1mdefault[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:31] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:31] "[35m[1m0   -c   $ [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:33] code 400, message Bad HTTP/0.9 request type ('0')
-139.59.165.167 - - [14/Feb/2023 15:47:33] "[35m[1m0`  [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:33] code 400, message Bad request version ('SIP/2.0')
-139.59.165.167 - - [14/Feb/2023 15:47:33] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:35] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:35] "[35m[1mTNMP   TNME   [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:37] "[35m[1m  à     [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:38] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
-139.59.165.167 - - [14/Feb/2023 15:47:38] "[35m[1mDmdT           ÿÿ[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:40] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
-139.59.165.167 - - [14/Feb/2023 15:47:40] "[35m[1m:   /     @  =            /         @                 [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:41] code 400, message Bad request version ('\x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_')
-139.59.165.167 - - [14/Feb/2023 15:47:41] "[35m[1m  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 .  .  . 9 8  ;   {     A A   -  A   -   a  - A A  A -     A  A A  A A  }   àmß_[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:43] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:43] "[35m[1m Z     6,   ÿ      :               æ           (CONNECT_DATA=(COMMAND=version))[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:44] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:44] "[35m[1m 4            ( ÿ U   MSSQLServer H  [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:46] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:46] "[35m[1m              [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:47] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:47] "[35m[1mGIOP  $                abcdef     get     [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:49] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:49] "[35m[1m  +<M            ÿÿ none                                                            beio                                                            [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:50] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:50] "[35m[1m                   [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:52] code 400, message Bad request syntax ('\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:52] "[35m[1m     _@ 7                                InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe SessionType=Discovery AuthMethod=None  [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:54] code 400, message Bad request version ('CharruaVista')
-139.59.165.167 - - [14/Feb/2023 15:47:54] "[35m[1m    Í   ANY-SCP         FINDSCU                                           1.2.840.10008.3.1.1.1   .   0  1.2.840.10008.1.1@  1.2.840.10008.1.2P  :Q    @ R  1.2.826.0.1.3680043.2.1396.999U  CharruaVista[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:54] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
-139.59.165.167 - - [14/Feb/2023 15:47:54] "[35m[1m  ,'à     Cookie: mstshash=Administrator[0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:55] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00')
-139.59.165.167 - - [14/Feb/2023 15:47:55] "[35m[1m     [0m" HTTPStatus.BAD_REQUEST -
-139.59.165.167 - - [14/Feb/2023 15:47:55] code 400, message Bad request syntax ('\x01I20100')
-139.59.165.167 - - [14/Feb/2023 15:47:55] "[35m[1mI20100[0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [14/Feb/2023 16:00:45] "[33mGET / HTTP/1.1[0m" 404 -
-152.89.196.211 - - [14/Feb/2023 16:27:23] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.60 - - [14/Feb/2023 16:33:04] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.60 - - [14/Feb/2023 16:33:04] code 505, message Invalid HTTP version (2.0)
-167.248.133.60 - - [14/Feb/2023 16:33:04] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Â CONTENT_TYPEapplication/textREMOTE_PORT9985REQUEST_METHODPOST	REMOTE_ADDR127.0.0.1SERVER_PORT80	SERVER_NAMElocalhostGATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/usr/bin/phar.phar QUERY_STRINGDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_FILENAME/usr/bin/phar.phar	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Ì SCRIPT_FILENAME/usr/share/php/PEAR.php QUERY_STRINGREMOTE_PORT9985DOCUMENT_ROOT/	SERVER_NAMElocalhostCONTENT_TYPEapplication/textCONTENT_LENGTH52SCRIPT_NAME/usr/share/php/PEAR.php	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Ô  QUERY_STRING	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SCRIPT_FILENAME/usr/local/lib/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclientREQUEST_METHODPOSTDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            ä SERVER_SOFTWAREphp/fcgiclientCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnSERVER_PROTOCOLHTTP/1.1REQUEST_METHODPOST#SCRIPT_FILENAME/opt/bitnami/php/lib/php/System.php#SCRIPT_NAME/opt/bitnami/php/lib/php/System.php QUERY_STRINGDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1SERVER_PORT80	SERVER_NAMElocalhostCONTENT_TYPEapplication/textGATEWAY_INTERFACEFastCGI/1.0	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Ø  GATEWAY_INTERFACEFastCGI/1.0CONTENT_TYPEapplication/textCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Ì  QUERY_STRING	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/var/www/html/index.phpCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            º REQUEST_METHODPOSTREMOTE_PORT9985	SERVER_NAMElocalhostSCRIPT_FILENAME/app/index.phpSCRIPT_NAME/app/index.phpDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1SERVER_SOFTWAREphp/fcgiclientSERVER_PORT80CONTENT_TYPEapplication/textCONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0 QUERY_STRINGSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            È  SCRIPT_FILENAME/app/public/index.phpCONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [14/Feb/2023 16:41:34] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [14/Feb/2023 16:41:34] "[35m[1m            Î SERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1SERVER_PORT80	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-185.224.128.17 - - [14/Feb/2023 19:05:51] "[33mCONNECT example.com:80 HTTP/1.1[0m" 404 -
-185.224.128.17 - - [14/Feb/2023 19:06:06] code 400, message Bad request syntax ('\x05\x01\x00')
-185.224.128.17 - - [14/Feb/2023 19:06:06] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
-185.224.128.17 - - [14/Feb/2023 19:06:06] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
-185.224.128.17 - - [14/Feb/2023 19:06:06] "[35m[1m P    example.com [0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [15/Feb/2023 01:02:30] "[33mGET / HTTP/1.1[0m" 404 -
-192.155.86.21 - - [15/Feb/2023 02:26:23] "[33mGET / HTTP/1.1[0m" 404 -
-192.155.86.21 - - [15/Feb/2023 02:26:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-167.248.133.44 - - [15/Feb/2023 02:52:30] code 400, message Bad request version ('À\x14À')
-167.248.133.44 - - [15/Feb/2023 02:52:30] "[35m[1m î  ê&RÎMowdp3Æä§²ÊíË§\<piÝkO²à~#· 9Qý&BvüÊgñ`ÛèC£E+×Qàìk[ &Ì¨Ì©À/À0À+À,ÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
-167.248.133.44 - - [15/Feb/2023 02:52:32] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.44 - - [15/Feb/2023 02:52:32] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.44 - - [15/Feb/2023 02:52:32] code 505, message Invalid HTTP version (2.0)
-167.248.133.44 - - [15/Feb/2023 02:52:32] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-162.142.125.212 - - [15/Feb/2023 03:52:33] code 400, message Bad request version ('À\x14À')
-162.142.125.212 - - [15/Feb/2023 03:52:33] "[35m[1m î  ê%«'£ÁðÚmGLáçÜÎeEüÝ<a»­dÃ°<v óÔè=ÏàË'`ýO£j²PAÒé[*Ì¼	ÿ´ &Ì¨Ì©À/À0À+À,ÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
-162.142.125.212 - - [15/Feb/2023 03:52:35] "[33mGET / HTTP/1.1[0m" 404 -
-162.142.125.212 - - [15/Feb/2023 03:52:35] "[33mGET / HTTP/1.1[0m" 404 -
-162.142.125.212 - - [15/Feb/2023 03:52:35] code 505, message Invalid HTTP version (2.0)
-162.142.125.212 - - [15/Feb/2023 03:52:35] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-192.241.199.24 - - [15/Feb/2023 04:35:18] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-192.241.199.24 - - [15/Feb/2023 04:35:18] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-161.189.192.94 - - [15/Feb/2023 04:54:54] code 400, message Bad request version ('í\xads±û½GâEïK`)\x07ã\x88Á·\x12\x07ºöa§¦¾ö[')
-161.189.192.94 - - [15/Feb/2023 04:54:54] "[35m[1mL   111ÀÛ9Îe y¥Pýg"|Üó£ÏôùÜ#ÚÇ¨PkØH Ã	í­s±û½GâEïK`)ãÁ·ºöa§¦¾ö[[0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [15/Feb/2023 10:03:45] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [15/Feb/2023 10:50:21] "[33mGET /static/admin/javascript/hetong.js HTTP/1.0[0m" 404 -
-89.248.165.50 - - [15/Feb/2023 12:22:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
-89.248.165.50 - - [15/Feb/2023 12:22:04] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
-130.211.54.158 - - [15/Feb/2023 17:18:48] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [15/Feb/2023 19:05:01] "[33mGET / HTTP/1.1[0m" 404 -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            Â GATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/usr/bin/phar.pharSCRIPT_NAME/usr/bin/phar.pharDOCUMENT_ROOT/	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52REQUEST_METHODPOST QUERY_STRINGSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1SERVER_PORT80REMOTE_PORT9985	REMOTE_ADDR127.0.0.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            Ì 	SERVER_NAMElocalhostCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            Ô DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1SERVER_PORT80CONTENT_TYPEapplication/textCONTENT_LENGTH52	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            ä 	SERVER_NAMElocalhostCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            Ø  REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/System.phpSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985	SERVER_NAMElocalhostCONTENT_LENGTH52 QUERY_STRINGDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1GATEWAY_INTERFACEFastCGI/1.0SERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_NAME/usr/local/lib/php/System.phpSERVER_PORT80CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            Ì SCRIPT_NAME/var/www/html/index.phpSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            º SCRIPT_NAME/app/index.phpSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:00] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:00] "[35m[1m            È  	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [15/Feb/2023 21:54:01] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [15/Feb/2023 21:54:01] "[35m[1m            Î SCRIPT_NAME/usr/local/bin/phar.phar	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [16/Feb/2023 00:27:35] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 00:27:38] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 00:27:42] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-154.89.5.74 - - [16/Feb/2023 02:59:38] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [16/Feb/2023 04:06:25] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [16/Feb/2023 04:38:56] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:00] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:01] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:01] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:02] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:03] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:06] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:06] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:10] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:15] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:39:15] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 04:54:54] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-94.102.61.49 - - [16/Feb/2023 07:19:21] "[33mGET / HTTP/1.1[0m" 404 -
-192.241.202.41 - - [16/Feb/2023 08:26:28] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-192.241.202.41 - - [16/Feb/2023 08:26:28] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [16/Feb/2023 12:59:09] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:12] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:15] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:18] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:21] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:23] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:26] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:28] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:30] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:33] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:35] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:37] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:39] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [16/Feb/2023 12:59:41] "GET /get_word_fields HTTP/1.0" 200 -
-88.210.11.212 - - [16/Feb/2023 13:07:46] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.120 - - [16/Feb/2023 18:07:17] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.120 - - [16/Feb/2023 18:07:18] code 505, message Invalid HTTP version (2.0)
-167.248.133.120 - - [16/Feb/2023 18:07:18] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-142.93.137.59 - - [16/Feb/2023 20:13:57] "[33mHEAD / HTTP/1.0[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:13:58] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:13:58] "[33mGET /c/version.js HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:13:59] "[33mGET /streaming/clients_live.php HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:14:00] "[33mGET /stalker_portal/c/version.js HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:14:01] "[33mGET /stream/live.php HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:14:02] "[33mGET /flu/403.html HTTP/1.1[0m" 404 -
-142.93.137.59 - - [16/Feb/2023 20:14:03] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [16/Feb/2023 21:32:43] "GET /static/img/search_in_progress.gif HTTP/1.0" 200 -
-88.210.11.212 - - [16/Feb/2023 22:09:27] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [16/Feb/2023 22:10:34] "GET /search HTTP/1.0" 200 -
-152.89.196.211 - - [17/Feb/2023 02:37:10] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:10] "[35m[1m            Â SERVER_PORT80PHP_ADMIN_VALUEallow_url_include = OnCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:10] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:10] "[35m[1m            Ì REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1 QUERY_STRING	REMOTE_ADDR127.0.0.1SERVER_PORT80CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/usr/share/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostREQUEST_METHODPOSTSCRIPT_NAME/usr/share/php/PEAR.phpCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:10] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:10] "[35m[1m            Ô CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/usr/local/lib/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985SERVER_PORT80	SERVER_NAMElocalhostREQUEST_METHODPOST	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:10] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:10] "[35m[1m            ä DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST QUERY_STRINGSERVER_PORT80	SERVER_NAMElocalhostCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:11] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:11] "[35m[1m            Ø  	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1SCRIPT_FILENAME/usr/local/lib/php/System.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclient QUERY_STRING	SERVER_NAMElocalhostCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:11] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:11] "[35m[1m            Ì SCRIPT_NAME/var/www/html/index.phpSERVER_PORT80CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientREQUEST_METHODPOSTSCRIPT_FILENAME/var/www/html/index.phpCONTENT_TYPEapplication/text	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:11] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:11] "[35m[1m            º PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_NAME/app/index.phpSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:11] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:11] "[35m[1m            È  	REMOTE_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOSTSCRIPT_NAME/app/public/index.php	SERVER_ADDR127.0.0.1SERVER_PORT80GATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/app/public/index.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [17/Feb/2023 02:37:11] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [17/Feb/2023 02:37:11] "[35m[1m            Î REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/bin/phar.pharDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-185.165.190.17 - - [17/Feb/2023 03:46:26] code 400, message Bad request syntax ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03u')
-185.165.190.17 - - [17/Feb/2023 03:46:26] "[35m[1m ô  ðu[0m" HTTPStatus.BAD_REQUEST -
-185.165.190.17 - - [17/Feb/2023 03:46:29] "[33mGET / HTTP/1.1[0m" 404 -
-185.165.190.17 - - [17/Feb/2023 03:47:02] code 400, message Bad request syntax ('\x03\x96øîc\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
-185.165.190.17 - - [17/Feb/2023 03:47:02] "[35m[1møîc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [17/Feb/2023 04:59:27] "[33mGET /static/admin/javascript/hetong.js HTTP/1.0[0m" 404 -
-88.210.11.212 - - [17/Feb/2023 07:12:30] "[33mGET / HTTP/1.1[0m" 404 -
-87.236.176.232 - - [17/Feb/2023 07:56:39] "[33mGET / HTTP/1.1[0m" 404 -
-192.241.210.30 - - [17/Feb/2023 12:14:20] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-192.241.210.30 - - [17/Feb/2023 12:14:20] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [17/Feb/2023 16:15:30] "[33mGET / HTTP/1.1[0m" 404 -
-170.187.167.41 - - [17/Feb/2023 20:59:36] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
-88.210.11.212 - - [18/Feb/2023 01:18:22] "[33mGET / HTTP/1.1[0m" 404 -
-103.56.61.147 - - [18/Feb/2023 01:26:44] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
-103.56.61.147 - - [18/Feb/2023 01:26:44] "[35m[1mCNXN         2  ¼±§±host:: [0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            Â CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            Ì 	SERVER_NAMElocalhost	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            Ô SERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/textREQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/PEAR.php QUERY_STRING	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0REMOTE_PORT9985SERVER_PORT80SCRIPT_NAME/usr/local/lib/php/PEAR.phpDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            ä DOCUMENT_ROOT/SERVER_PORT80SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52 QUERY_STRING	SERVER_NAMElocalhostCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            Ø  SERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnDOCUMENT_ROOT/SCRIPT_NAME/usr/local/lib/php/System.php QUERY_STRINGSCRIPT_FILENAME/usr/local/lib/php/System.phpREQUEST_METHODPOST	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:57] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:57] "[35m[1m            Ì REQUEST_METHODPOST QUERY_STRINGDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1SCRIPT_FILENAME/var/www/html/index.php	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0	SERVER_NAMElocalhostCONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:58] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:58] "[35m[1m            º DOCUMENT_ROOT/REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textCONTENT_LENGTH52REQUEST_METHODPOSTSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1SERVER_PORT80	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:58] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:58] "[35m[1m            È  SCRIPT_NAME/app/public/index.phpDOCUMENT_ROOT/REMOTE_PORT9985CONTENT_TYPEapplication/textCONTENT_LENGTH52REQUEST_METHODPOSTSCRIPT_FILENAME/app/public/index.php QUERY_STRING	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SERVER_PORT80	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [18/Feb/2023 09:02:58] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [18/Feb/2023 09:02:58] "[35m[1m            Î SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [18/Feb/2023 10:16:49] "[33mGET / HTTP/1.1[0m" 404 -
-193.35.18.168 - - [18/Feb/2023 13:11:57] "[33mCONNECT www.twitch.tv:443 HTTP/1.1[0m" 404 -
-162.243.141.25 - - [18/Feb/2023 17:55:36] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-162.243.141.25 - - [18/Feb/2023 17:55:36] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-35.88.9.174 - - [18/Feb/2023 18:13:50] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [18/Feb/2023 19:17:56] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.46 - - [18/Feb/2023 23:17:49] "[33mGET / HTTP/1.1[0m" 404 -
-167.248.133.46 - - [18/Feb/2023 23:17:49] code 505, message Invalid HTTP version (2.0)
-167.248.133.46 - - [18/Feb/2023 23:17:49] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-88.210.11.212 - - [19/Feb/2023 04:18:22] "[33mGET / HTTP/1.1[0m" 404 -
-35.233.62.116 - - [19/Feb/2023 08:49:41] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [19/Feb/2023 13:18:39] "[33mGET / HTTP/1.1[0m" 404 -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Â 	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSCRIPT_FILENAME/usr/bin/phar.phar	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnSERVER_PORT80 QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Ì 	SERVER_ADDR127.0.0.1SERVER_PORT80GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/usr/share/php/PEAR.php QUERY_STRING	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52REQUEST_METHODPOSTSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1SCRIPT_FILENAME/usr/share/php/PEAR.phpDOCUMENT_ROOT/	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Ô 	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            ä SERVER_SOFTWAREphp/fcgiclientSERVER_PORT80CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0#SCRIPT_FILENAME/opt/bitnami/php/lib/php/System.php	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Ø   QUERY_STRINGREMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1GATEWAY_INTERFACEFastCGI/1.0SERVER_SOFTWAREphp/fcgiclientSCRIPT_NAME/usr/local/lib/php/System.php	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1SERVER_PORT80	SERVER_NAMElocalhostCONTENT_TYPEapplication/textREQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/System.phpCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Ì REQUEST_METHODPOSTSCRIPT_FILENAME/var/www/html/index.phpSCRIPT_NAME/var/www/html/index.php	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            º SERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostCONTENT_LENGTH52SCRIPT_FILENAME/app/index.php QUERY_STRING	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            È  REQUEST_METHODPOSTSCRIPT_FILENAME/app/public/index.phpSCRIPT_NAME/app/public/index.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientGATEWAY_INTERFACEFastCGI/1.0	REMOTE_ADDR127.0.0.1CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [19/Feb/2023 13:23:05] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [19/Feb/2023 13:23:05] "[35m[1m            Î CONTENT_TYPEapplication/textDOCUMENT_ROOT/	SERVER_NAMElocalhost QUERY_STRING	REMOTE_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-107.170.240.21 - - [19/Feb/2023 21:40:50] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-107.170.240.21 - - [19/Feb/2023 21:40:50] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-88.210.11.212 - - [19/Feb/2023 22:18:47] "[33mGET / HTTP/1.1[0m" 404 -
-87.236.176.234 - - [19/Feb/2023 23:15:37] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:31] "GET /get_word_fields HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:36] "GET /static/img/search_in_progress.gif HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:36] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:36] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:37] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:37] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:38] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:38] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:38] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:38] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:39] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:39] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:39] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:40] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:40] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:40] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:40] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:41] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:41] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 04:46:41] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-88.210.11.212 - - [20/Feb/2023 07:18:55] "[33mGET / HTTP/1.1[0m" 404 -
-141.105.66.212 - - [20/Feb/2023 10:25:39] "[33mGET / HTTP/1.0[0m" 404 -
-141.105.66.212 - - [20/Feb/2023 10:25:39] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
-141.105.66.212 - - [20/Feb/2023 10:25:39] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:39] code 400, message Bad request version ('\x00/\x00')
-141.105.66.212 - - [20/Feb/2023 10:25:39] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:39] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
-141.105.66.212 - - [20/Feb/2023 10:25:39] "[35m[1m u      f  e  d  c  b  :  9  8  5  4  3  2  /                        [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:44] code 400, message Bad request syntax ('JRMI\x00\x02K')
-141.105.66.212 - - [20/Feb/2023 10:25:44] "[35m[1mJRMI K[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:49] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
-141.105.66.212 - - [20/Feb/2023 10:25:49] "[35m[1m      [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:54] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
-141.105.66.212 - - [20/Feb/2023 10:25:54] "[35m[1mA   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:54] code 400, message Bad HTTP/0.9 request type ('show')
-141.105.66.212 - - [20/Feb/2023 10:25:54] "[35m[1mshow info[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:54] "[33mOPTIONS / HTTP/1.0[0m" 404 -
-141.105.66.212 - - [20/Feb/2023 10:25:54] code 400, message Bad request version ('RTSP/1.0')
-141.105.66.212 - - [20/Feb/2023 10:25:54] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:25:59] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
-141.105.66.212 - - [20/Feb/2023 10:25:59] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:04] code 400, message Bad HTTP/0.9 request type ('\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:04] "[35m[1m          versionbind   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:04] code 400, message Bad request syntax ('HELP')
-141.105.66.212 - - [20/Feb/2023 10:26:04] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:04] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
-141.105.66.212 - - [20/Feb/2023 10:26:04] "[35m[1m   qjn0k¡¢[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:09] code 400, message Bad request version ('0.12\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:09] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:14] code 400, message Bad HTTP/0.9 request type ('l\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:14] "[35m[1ml          [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:14] code 400, message Bad request version ('SIP/2.0')
-141.105.66.212 - - [20/Feb/2023 10:26:14] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:14] code 400, message Bad request version ("\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
-141.105.66.212 - - [20/Feb/2023 10:26:14] "[35m[1m  ü·0C)qþ^E©ÈÉÞýî)m'ß.VH e8&+ó¾àKÓò¤_7ôC=dTHñ¸Y{¶{:  3 9 5 /À,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀSÀ+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀRÀ$À( k jÀsÀw Ä ÃÀ#À' g @ÀrÀv ¾ ½À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:20] "[33mGET / HTTP/1.1[0m" 404 -
-141.105.66.212 - - [20/Feb/2023 10:26:20] code 400, message Bad request syntax ('\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x07\x00À\x01\x00\x80\x08\x00\x80\x02\x00\x80\x05\x00\x80\x00\x00\x00\x06\x00@\x04\x00\x80\x03\x00\x805Ïç4¡\x1añD0Ðbl§«í7')
-141.105.66.212 - - [20/Feb/2023 10:26:20] "[35m[1m4      À        @  5Ïç4¡ñD0Ðbl§«í7[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:26] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
-141.105.66.212 - - [20/Feb/2023 10:26:26] "[35m[1m               bbbb0100000001[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x93xÑÂOòd*C5tqiÒ$\x94É0\x80\xad¤Üzà\x18oÓ\x8b!¶íb')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m  üxÑÂOòd*C5tqiÒ$É0­¤ÜzàoÓ!¶íb 0NDÆ¿\b2`Ï[wsªú#·Ý+Ú7¬åõr¥  3 9 5 /À,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀSÀ+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀRÀ$À( k jÀsÀw Ä ÃÀ#À' g @ÀrÀv ¾ ½À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x03\\\x01\x00\x03X\x03\x01cóJØÒ\x10í$\x9d$ê½QæÄ=þG\x01\x17»\x88Y<\x7fÉ\x8f\x9dìF¬s\x00\x03\x1aÀb\x00sÀ\x9f\x00\x80\x00\x04À\x08À\x11Às\x00\x01À')
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00[\x01\x00\x00W\x03\x03cóJØC¯²\x7f\x14r\x95\x9c£\x81D\x92\x88{')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m [  WcóJØC¯²r£D{VÚ§ªûæ²Õ¦xë  [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01=\x01\x00\x019\x03\x03cóJØ+äM¹')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m\ XcóJØÒí$$ê½QæÄ=þG»Y<ÉìF¬s Àb sÀ  ÀÀÀs À À;À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m= 9cóJØ+äM¹`£®>8mæF¤téR'c UØ5Éúù  [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m Ã  ¿cóJØI²ñ~^07öq!3ñ{±K4,É    þÿþþ c e  r  s 2 @ ¢ t 8 j £ÀBÀVÀCÀW D ½À  ÃÀ  f    ²À¦ ª  ³À§ «ÀfÀlÀgÀmÀÀÀÀÌ­ - ´ µ   w  x 3 gÀÀ¢  y 9 k   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m   cóJØ¬Ò3×WÝ¾í|t,}zØÔEäX  À´Àµ Ç ÆÀ²À°À³À±  E    [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad request version ('¼\x00\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m `  \cóJØÅãý`ß-±»ÇÃùöêUË&Va>g­Ê¼  [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:32] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:32] "[35m[1m Ã  ¿cóJØ¦|B/­´Ö»û14Nþó½¾õò­Ù    þÿþþ c e  r  s 2 @ ¢ t 8 j £ÀBÀVÀCÀW D ½À  ÃÀ  f    ²À¦ ª  ³À§ «ÀfÀlÀgÀmÀÀÀÀÌ­ - ´ µ   w  x 3 gÀÀ¢  y 9 k   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:37] code 400, message Bad request version ('\x00\x15À;À')
-141.105.66.212 - - [20/Feb/2023 10:26:37] "[35m[1m\ XcóJØ¯ÌÄkpÊÓnuE¤ØM¸ÝE1±0¿màÃjz Àb sÀ  ÀÀÀs À À;À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m Ã  ¿cóJéCx±nR²2ù/Öb³H±©iä´þa&øÅ  ÀÀ£ ÀDÀRÀEÀS E ¾À|  ÄÀ}ÌªÌ     0 > ¤ 6 h ¥À>ÀXÀ?ÀY B »À  ÁÀ     1 ?   7 i ¡À@ÀTÀAÀU C ¼À~  ÂÀ      4 l ¦ :   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m Ã  ¿cóJé4õÖýÄ@	vwC|ª< «&ù^0+a6  ÀÀ£ ÀDÀRÀEÀS E ¾À|  ÄÀ}ÌªÌ     0 > ¤ 6 h ¥À>ÀXÀ?ÀY B »À  ÁÀ     1 ?   7 i ¡À@ÀTÀAÀU C ¼À~  ÂÀ      4 l ¦ :   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00W\x01\x00\x00S\x03\x00cóJØ+m\x16_Y\x8eAuó\x17¦à\x11¡/\x90\x92\x08RÈÒÉÅ^\x93½/4\x00\x00,À')
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad HTTP/0.9 request type ("\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x07\x00À\x01\x00\x80\x08\x00\x80\x02\x00\x80\x05\x00\x80\x00\x00\x00\x06\x00@\x04\x00\x80\x03\x00\x80!';\x06º¤£\x89µi~")
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m  W  S cóJØ+m_YAuó¦à¡/RÈÒÉÅ^½/4  ,À À[  ¿   F ÅÀ § m :ÀGÀF  ÀZ ¦ l  4 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m4      À        @  !';º¤£µi~d?[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x006\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m ã  ßcóJé/ãÉÒ	ã|×mïÁÒ;Â<ºá43RNùúï    þÿþþ c e  r  s 2 @ ¢ t 8 j £ÀBÀVÀCÀW D ½À  ÃÀ  f    ²À¦ ª  ³À§ «ÀfÀlÀgÀmÀÀÀÀÌ­ - ´ µ   w  x 3 gÀÀ¢  y 9 k  6 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('\x00\x15À;À')
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m| xcóJéW-ÀòhOÃ6Â!rë	TzðW\zÙ¬©ÿ/Ó Àb sÀ  ÀÀÀs À À;À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('À#À¬À®À+À')
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('À#À¬À®À+À')
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m Ã  ¿cóJéñXj:ÎèEoGd2@¢ñö@¢\b,¤r   m §ÀFÀZÀGÀ[ F ¿À  ÅÀ   À²À°À³À±ÀÀ	À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m Ã  ¿cóJéï`âSu§¨ÿ¶p5ÂÞÎ¯+èPjÛ1   m §ÀFÀZÀGÀ[ F ¿À  ÅÀ   À²À°À³À±ÀÀ	À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:49] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x006\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:49] "[35m[1m ã  ßcóJéé¡Å:ÛH´Í¿þW¥Ã*«»ÙêP¸å  ÀÀ£ ÀDÀRÀEÀS E ¾À|  ÄÀ}ÌªÌ     0 > ¤ 6 h ¥À>ÀXÀ?ÀY B »À  ÁÀ     1 ?   7 i ¡À@ÀTÀAÀU C ¼À~  ÂÀ      4 l ¦ :  6 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêøªd=[-n÷j¹Å¦Û~k\TÑ  ÀÀ(À0ÀLÀ`ÀMÀaÀvÀÀwÀÌ¨ÌÀÀÀ JÀ KÀ%À-À LÀ&À.ÀJÀ^ÀKÀ_ÀtÀÀuÀ IÀ GÀ H N MÀÀÀ)À1ÀÀ*À2ÀNÀbÀOÀcÀxÀÀyÀÀÀ [ \ WÀ ZÀÀ   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêvÎ¾aàI$Üã29_ÑË6éÞ\§wQ  ÀÀ(À0ÀLÀ`ÀMÀaÀvÀÀwÀÌ¨ÌÀÀÀ JÀ KÀ%À-À LÀ&À.ÀJÀ^ÀKÀ_ÀtÀÀuÀ IÀ GÀ H N MÀÀÀ)À1ÀÀ*À2ÀNÀbÀOÀcÀxÀÀyÀÀÀ [ \ WÀ ZÀÀ   [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('À#À¬À®À+À')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m ã  ßcóJê¨}Òµî1çåÞ'â:µ´=·^×íJÖ\   m §ÀFÀZÀGÀ[ F ¿À  ÅÀ   À²À°À³À±ÀÀ	À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêh<rF7Ô TúcÉóÙQÄ¡:(ª_Öà   YÀÀ X O R Q P S V U T    ÁÁ ÁÁÁÁÁ ) & * ' + ( #  "  % ! $    ÀªÀ«   ®À¤À¨ ¨  ¯À¥À© ©ÀdÀjÀeÀkÀÀÀÀÌ« , ° ±    [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêJÙ¨ÃêL^¹º¥Æ	yUJ2<áø",5à   YÀÀ X O R Q P S V U T    ÁÁ ÁÁÁÁÁ ) & * ' + ( #  "  % ! $    ÀªÀ«   ®À¤À¨ ¨  ¯À¥À© ©ÀdÀjÀeÀkÀÀÀÀÌ« , ° ±    [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x006\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m ã  ßcóJêHß9ÀZp6H8]wã¸ÜG7_¢NcN`Ô  ÀÀ(À0ÀLÀ`ÀMÀaÀvÀÀwÀÌ¨ÌÀÀÀ JÀ KÀ%À-À LÀ&À.ÀJÀ^ÀKÀ_ÀtÀÀuÀ IÀ GÀ H N MÀÀÀ)À1ÀÀ*À2ÀNÀbÀOÀcÀxÀÀyÀÀÀ [ \ WÀ ZÀÀ  6 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request syntax ('\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02cóJêU\x88\x05\x00\x86\x07Pá\x81ð7º%ol\x1a\x8aEEåÔuè3:\x01j\x02\x00\x00\x80\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01cóJêò\x8a]\x0f÷I÷ê)')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêU Páð7º%olEEåÔuè3:j   b a ` d      ¶ ¬  · ­ÀhÀnÀiÀoÀÀÀÀÌ® . ¸ ¹  | [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m Ã  ¿cóJêò]÷I÷ê)-¦FbÙ«@bOIîPO   b a ` d      ¶ ¬  · ­ÀhÀnÀiÀoÀÀÀÀÌ® . ¸ ¹  | [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x01\x00\x006\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m ã  ßcóJê»?D¼Û`ß2áÜ©åE>ÖéÂéó©-Â   YÀÀ X O R Q P S V U T    ÁÁ ÁÁÁÁÁ ) & * ' + ( #  "  % ! $    ÀªÀ«   ®À¤À¨ ¨  ¯À¥À© ©ÀdÀjÀeÀkÀÀÀÀÌ« , ° ±   6 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x02\x00K\x01\x00\x00G\x03\x02cóJêù')
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x01\x00\x00\x16\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m K  GcóJêù :q:©Ê|DØ¡F[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m K  GcóJêÝ,YÖl?»ÁéÞ¦óYð±¬?°ª"p  À!ÀÀÀ    [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03cóJêÑ6ÞB¨P-\x1bÉd»F%)\x04')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m ã  ßcóJêÑ6ÞB¨P-Éd»F%) sÛ³ZÞ­õ|   b a ` d      ¶ ¬  · ­ÀhÀnÀiÀoÀÀÀÀÌ® . ¸ ¹  | [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:50] code 400, message Bad request version ('\x01\x00\x006\x00')
-141.105.66.212 - - [20/Feb/2023 10:26:50] "[35m[1m k  gcóJêãLI³QbEnË÷ñ;>ÏùlöªuöÍ;§  À!ÀÀÀ   6 [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00«\x01\x00\x00§\x03\x00cóJì³º\x9dº/ÍÜX\x82v$è¤÷ËK*29\x8b0¡ª#h+')
-141.105.66.212 - - [20/Feb/2023 10:26:52] "[35m[1m  «  § cóJì³ºº/ÍÜXv$è¤÷ËK*290¡ª#h+	û   / [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:26:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00«\x01\x00\x00§\x03\x00cóJìéøÂÕ\x8b\x0ejK¤Ã¼\x86!ÉýÆ%\x05>ÿ;_>\x02Ø{¡`\x00\x00\x80\x00\x10\x001\x00?\x007\x00iÀ@ÀA\x00C\x00¼\x00\x86\x00Â\x00\x0f\x00\x98\x00\x19\x00\x1b\x004\x00l\x00:\x00mÀFÀG\x00F\x00¿\x00\x89\x00Å\x00\x1a\x00\x9bÀ\x08À')
-141.105.66.212 - - [20/Feb/2023 10:26:52] "[35m[1m  «  § cóJìéøÂÕjK¤Ã¼!ÉýÆ%>ÿ;_>Ø{¡`    1 ? 7 iÀ@ÀA C ¼  Â     4 l : mÀFÀG F ¿  Å  ÀÀ	À#À[0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:27:02] code 400, message Bad request version ('\x01\x00')
-141.105.66.212 - - [20/Feb/2023 10:27:02] "[35m[1m  K  G cóJñDË[S0û+ê ¹Ñê_²ß/?P    A º  À 	  ÀÀÀ"ÀÀÀ!ÀÀÀ  [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:27:02] code 400, message Bad request syntax ('\x16\x03\x00\x003\x01\x00\x00/\x03\x00cóJéI¬ëÓA<(êï\x80÷úÑ¢èû\x88ø<\x0eh\x97ü1\x87£d¨\x00\x00\x08\x00c\x00\x14\x00\x11\x00e\x01\x00')
-141.105.66.212 - - [20/Feb/2023 10:27:02] "[35m[1m  3  / cóJéI¬ëÓA<(êï÷úÑ¢èûø<hü1£d¨   c   e [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:27:02] code 400, message Bad request version ('\x00%\x00!\x00\x8b\x00\x8c\x00®\x00\x8d\x00¯ÀdÀeÀ\x94À\x95\x00b\x00a\x00\x08\x00\x06\x00\x93\x00\x94\x00¶\x00\x95\x00·ÀhÀiÀ\x98À\x99\x00|\x00}\x00<\x00~\x005\x00=À<À=\x01\x00')
-141.105.66.212 - - [20/Feb/2023 10:27:02] "[35m[1m  «  § cóJìf÷Îò5Ìì6+6¬fS	¥¯G1ùmzúðèß  ÀtÀu I N MÀÀÀ)ÀÀ*ÀNÀOÀxÀy [À ZÀÀ Y R Q V U ) & * ' #  "  % !   ®  ¯ÀdÀeÀÀ b a     ¶  ·ÀhÀiÀÀ | } < ~ 5 =À<À= [0m" HTTPStatus.BAD_REQUEST -
-141.105.66.212 - - [20/Feb/2023 10:27:02] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00')
-141.105.66.212 - - [20/Feb/2023 10:27:02] "[35m[1m  «  § cóJé°ön¨xv[×º^57`ÕSwûØ¯¦    þÿþþ c e  r  s 2 @ ¢ t 8 j £ÀBÀVÀCÀW D ½À  ÃÀ  f    ²À¦ ª  ³À§ «ÀfÀlÀgÀmÀÀÀÀÌ­ - ´ µ   w  x 3 gÀÀ¢  y 9 k [0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [20/Feb/2023 11:39:54] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /static/img/search_in_progress.gif HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 11:40:15] "GET /get_word_fields HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 13:01:44] "HEAD /search HTTP/1.0" 200 -
-88.210.11.212 - - [20/Feb/2023 16:18:28] "[33mGET / HTTP/1.1[0m" 404 -
-128.1.131.197 - - [20/Feb/2023 16:33:14] "[33mGET / HTTP/1.1[0m" 404 -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Â 	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Ì SERVER_PORT80	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST	SERVER_ADDR127.0.0.1	REMOTE_ADDR127.0.0.1CONTENT_LENGTH52SCRIPT_FILENAME/usr/share/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/text QUERY_STRINGDOCUMENT_ROOT/REMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Ô  QUERY_STRINGDOCUMENT_ROOT/CONTENT_LENGTH52REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/PEAR.php	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            ä 	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Ø  SCRIPT_NAME/usr/local/lib/php/System.phpDOCUMENT_ROOT/SERVER_PORT80SERVER_PROTOCOLHTTP/1.1	REMOTE_ADDR127.0.0.1REMOTE_PORT9985REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/System.php	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Ì GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/var/www/html/index.phpPHP_ADMIN_VALUEallow_url_include = OnCONTENT_TYPEapplication/textCONTENT_LENGTH52REQUEST_METHODPOST QUERY_STRINGDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            º 	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostREQUEST_METHODPOSTSCRIPT_NAME/app/index.php QUERY_STRING	REMOTE_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SERVER_PORT80CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            È  	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52SCRIPT_FILENAME/app/public/index.php QUERY_STRINGDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/app/public/index.phpREMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-152.89.196.211 - - [20/Feb/2023 16:37:48] code 400, message Bad request version ('php://input')
-152.89.196.211 - - [20/Feb/2023 16:37:48] "[35m[1m            Î 	SERVER_ADDR127.0.0.1SERVER_PORT80CONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOST	REMOTE_ADDR127.0.0.1REMOTE_PORT9985PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_FILENAME/usr/local/bin/phar.phar QUERY_STRINGDOCUMENT_ROOT/CONTENT_TYPEapplication/textSCRIPT_NAME/usr/local/bin/phar.pharSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input[0m" HTTPStatus.BAD_REQUEST -
-167.94.138.46 - - [20/Feb/2023 18:35:06] "[33mGET / HTTP/1.1[0m" 404 -
-167.94.138.46 - - [20/Feb/2023 18:35:06] code 505, message Invalid HTTP version (2.0)
-167.94.138.46 - - [20/Feb/2023 18:35:06] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
-172.22.0.1 - - [20/Feb/2023 20:27:20] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 20:27:23] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 20:27:27] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [20/Feb/2023 20:29:18] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-88.210.11.212 - - [21/Feb/2023 01:19:52] "[33mGET / HTTP/1.1[0m" 404 -
-162.243.141.25 - - [21/Feb/2023 01:26:33] code 400, message Bad request syntax ('MGLNDD_92.255.109.11_9001')
-162.243.141.25 - - [21/Feb/2023 01:26:33] "[35m[1mMGLNDD_92.255.109.11_9001[0m" HTTPStatus.BAD_REQUEST -
-172.22.0.1 - - [21/Feb/2023 05:05:58] "GET /static/css/search.css HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:05:59] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:00] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:02] "GET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:03] "GET /static/css/gramm_gloss_selection.css HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:03] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:05] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:07] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:07] "GET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:07] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:15] "GET /static/css/span_styles.css HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:16] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:16] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:06:16] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:21:57] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:21:57] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 05:21:59] "GET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0" 200 -
-195.209.141.219 - - [21/Feb/2023 06:37:09] code 400, message Bad request syntax ('\x00\x00\x00àZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x05\x01=K\x00\x00\x01\x01T\x01\x18')
-195.209.141.219 - - [21/Feb/2023 06:37:09] "[35m[1m   àZ          =K  T[0m" HTTPStatus.BAD_REQUEST -
-192.241.208.7 - - [21/Feb/2023 09:28:20] "[33mGET / HTTP/1.1[0m" 404 -
-88.210.11.212 - - [21/Feb/2023 10:22:11] "[33mGET / HTTP/1.1[0m" 404 -
-172.22.0.1 - - [21/Feb/2023 17:05:29] "GET /search HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:43] "GET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:47] "GET /static/js/virtual_keyboards.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:49] "GET /static/js/result_parser.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:52] "GET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:55] "GET /static/js/query_share_load.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:05:57] "GET /static/js/json_loaders.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:00] "GET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:02] "GET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:05] "GET /static/js/common_interface_functions.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:07] "GET /static/d3/d3.min.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:10] "GET /static/js/word_stats.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:12] "GET /static/js/select_subcorpus.js HTTP/1.0" 200 -
-172.22.0.1 - - [21/Feb/2023 17:06:18] "GET /get_word_fields HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:44:51] "GET /search_sent?n_words=1&random_seed=774854&wf1=&lex1=&gr1=&w_id1=&l_id1=&gloss_index1=ABL&n_ana1=any&sentence_index1=&lang1=ket&txt=&precise=on&page_size=10&sort=random&distance_strict=on&translit=original HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "GET /search HTTP/1.0" 200 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/css/search.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/css/span_styles.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/css/gramm_gloss_selection.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/icons-1.4.1/font/bootstrap-icons.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/jquery-3.5.1-dist/jquery-3.5.1.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/autocomplete_devbridge/jquery.autocomplete.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/common_interface_functions.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/virtual_keyboards.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/result_parser.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/json_loaders.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/query_share_load.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/kioskboard-1.4.0/kioskboard-1.4.0.min.css HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/kioskboard-1.4.0/kioskboard-1.4.0.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/d3/d3.min.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/word_stats.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/js/select_subcorpus.js HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/img/search_in_progress.gif HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "[36mGET /static/icons-1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 HTTP/1.0[0m" 304 -
+172.22.0.1 - - [26/Feb/2023 14:48:17] "GET /get_word_fields HTTP/1.0" 200 -
