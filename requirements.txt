@@ -2,7 +2,7 @@
 
 elasticsearch>=7.0.0,<8.0.0
 Flask>=2.1.0
-Flask-Babel
+Flask-Babel==2.0.0
 lxml
 ijson
 XlsxWriter
