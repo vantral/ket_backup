@@ -1,4 +1,3 @@
-
 all	все
 undefined	неопределённый
 comments	комментарии
@@ -23,11 +22,10 @@ buryat	бурятский
 chinese	китайский
 chuvash	чувашский
 dargwa	даргинский
-en	английский
+english	английский
 english_note	английский (комментарии)
 erzya	эрзянский
 estonian	эстонский
-even	эвенский
 finnish	финский
 french	французский
 german	немецкий
@@ -50,7 +48,7 @@ ossetic_digor	дигорский
 ossetic_iron	иронский
 polish	польский
 romani	цыганский
-ru	русский
+russian	русский
 selkup	селькупский
 spanish	испанский
 swedish	шведский
@@ -61,4 +59,3 @@ udmurt	удмуртский
 ukrainian	украинский
 yakut	якутский
 yiddish	идиш
-ket	кетский

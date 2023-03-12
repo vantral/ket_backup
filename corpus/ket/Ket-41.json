@@ -26,7 +26,10 @@
               "trans_ru": "на берег",
               "gloss_ru": "на.берег",
               "gloss_index_ru": "STEM{ikda}-",
-              "gr.pos": "adv"
+              "gr.pos": "adv",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 5,
@@ -50,6 +53,9 @@
               "gr.pos": [
                 "<Not Sure>",
                 "adv"
+              ],
+              "gr.tag": [
+                "STEM"
               ]
             }
           ],
@@ -71,7 +77,10 @@
               "trans_ru": "люди",
               "gloss_ru": "люди",
               "gloss_index_ru": "STEM{deˀŋ}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 15,
@@ -92,7 +101,20 @@
               "gloss_index_ru": "S1.3{d}-PRS{∅}-PST{n}-O3.3PL.CORF{aŋ}-STEM{qut}-EP{i}-S1.PL{n}-",
               "lex": "qut",
               "trans_ru": "перемещаться",
-              "gr.pos": "v"
+              "gr.pos": "v",
+              "gr.tag": [
+                "S1",
+                "3",
+                "PRS",
+                "PST",
+                "O3",
+                "3PL",
+                "CORF",
+                "STEM",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 20,
@@ -111,7 +133,10 @@
               "gloss_index": "бывало{bat}-",
               "gloss_ru": "бывало",
               "gloss_index_ru": "бывало{bat}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "бывало"
+              ]
             }
           ],
           "off_start": 29,
@@ -132,7 +157,10 @@
               "trans_ru": "деревня",
               "gloss_ru": "деревня",
               "gloss_index_ru": "STEM{eŋŋuŋ}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 33,
@@ -153,7 +181,10 @@
               "trans_ru": "на берег",
               "gloss_ru": "на.берег",
               "gloss_index_ru": "STEM{ikda}-",
-              "gr.pos": "adv"
+              "gr.pos": "adv",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 39,
@@ -199,7 +230,10 @@
               "gloss_index": "бывало{bat}-",
               "gloss_ru": "бывало",
               "gloss_index_ru": "бывало{bat}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "бывало"
+              ]
             }
           ],
           "off_start": 5,
@@ -220,7 +254,19 @@
               "gloss_index_ru": "S1.3{d}-STEM{dúùn}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "lex": "dúùn",
               "trans_ru": "рыбачить",
-              "gr.pos": "v"
+              "gr.pos": "v",
+              "gr.tag": [
+                "S1",
+                "3",
+                "STEM",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 9,
@@ -241,7 +287,10 @@
               "trans_ru": "весна",
               "gloss_ru": "весна",
               "gloss_index_ru": "STEM{yda}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 21,
@@ -262,7 +311,10 @@
               "trans_ru": "в течение",
               "gloss_ru": "в.течение",
               "gloss_index_ru": "STEM{dugde}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 25,
@@ -283,7 +335,10 @@
               "trans_ru": "долго",
               "gloss_ru": "долго",
               "gloss_index_ru": "STEM{ìn}-",
-              "gr.pos": "adv"
+              "gr.pos": "adv",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 31,
@@ -328,7 +383,19 @@
               "gloss": "",
               "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
-              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gr.tag": [
+                "S1",
+                "3",
+                "работа",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 5,
@@ -349,7 +416,14 @@
               "trans_ru": "RFL",
               "gloss_ru": "RFL-GEN.PL.NTH-DATALL",
               "gloss_index_ru": "STEM{bin}-GEN.PL.NTH{na}-DATALL{ŋa}-",
-              "gr.pos": "<Not Sure>"
+              "gr.pos": "<Not Sure>",
+              "gr.tag": [
+                "STEM",
+                "GEN",
+                "PL",
+                "NTH",
+                "DATALL"
+              ]
             }
           ],
           "off_start": 18,
@@ -367,7 +441,19 @@
               "gloss": "",
               "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
-              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gr.tag": [
+                "S1",
+                "3",
+                "работа",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 26,
@@ -415,7 +501,10 @@
               "trans_ru": "раньше",
               "gloss_ru": "раньше",
               "gloss_index_ru": "STEM{anat}-",
-              "gr.pos": "adv"
+              "gr.pos": "adv",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 5,
@@ -436,7 +525,14 @@
               "trans_ru": "русский;",
               "gloss_ru": "русский;-GEN.PL.NTH-DATLOC",
               "gloss_index_ru": "STEM{kỳsn}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM",
+                "GEN",
+                "PL",
+                "NTH",
+                "DATLOC"
+              ]
             }
           ],
           "off_start": 10,
@@ -455,7 +551,10 @@
               "gloss_index": "NEG{bən}-",
               "gloss_ru": "NEG",
               "gloss_index_ru": "NEG{bən}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "NEG"
+              ]
             }
           ],
           "off_start": 19,
@@ -473,7 +572,19 @@
               "gloss": "",
               "gloss_index": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "gloss_ru": "S1.3-работаT.PSTPST-делатьEP-S1.PL",
-              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-"
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PST{o}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gr.tag": [
+                "S1",
+                "3",
+                "работа",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 23,
@@ -521,7 +632,14 @@
               "trans_ru": "RFL",
               "gloss_ru": "RFL-GEN.PL.NTH-DATLOC",
               "gloss_index_ru": "STEM{bin}-GEN.PL.NTH{na}-DATLOC{ŋt}-",
-              "gr.pos": "<Not Sure>"
+              "gr.pos": "<Not Sure>",
+              "gr.tag": [
+                "STEM",
+                "GEN",
+                "PL",
+                "NTH",
+                "DATLOC"
+              ]
             }
           ],
           "off_start": 5,
@@ -539,7 +657,19 @@
               "gloss": "",
               "gloss_index": "S1.3{d}-работа{lobet}-T.PRS{a}-PRS{∅}-делать{bet}-EP{i}-S1.PL{n}-",
               "gloss_ru": "S1.3-работаT.PRS-PRS-делатьEP-S1.PL",
-              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PRS{a}-PRS{∅}-делать{bet}-EP{i}-S1.PL{n}-"
+              "gloss_index_ru": "S1.3{d}-работа{lobet}-T.PRS{a}-PRS{∅}-делать{bet}-EP{i}-S1.PL{n}-",
+              "gr.tag": [
+                "S1",
+                "3",
+                "работа",
+                "T",
+                "PRS",
+                "PRS",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 13,
@@ -587,7 +717,19 @@
               "gloss_index_ru": "S1.3{d}-STEM{asleneŋ}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "lex": "asleneŋ",
               "trans_ru": "лодка",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "S1",
+                "3",
+                "STEM",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 5,
@@ -634,7 +776,19 @@
               "gloss_index_ru": "S1.1{d}-STEM{dyltij}-T.PST{i}-PST{l}-делать{bet}-EP{i}-S1.PL{n}-",
               "lex": "dyltij",
               "trans_ru": "ветка (лодка)",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "S1",
+                "1",
+                "STEM",
+                "T",
+                "PST",
+                "PST",
+                "делать",
+                "EP",
+                "S1",
+                "PL"
+              ]
             }
           ],
           "off_start": 5,

@@ -26,7 +26,10 @@
               "trans_ru": "дед",
               "gloss_ru": "дед",
               "gloss_index_ru": "STEM{qiːb}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 5,
@@ -47,7 +50,10 @@
               "trans_ru": "старик",
               "gloss_ru": "старик",
               "gloss_index_ru": "STEM{baat}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 10,
@@ -66,7 +72,20 @@
               "gloss_index": "S1.2{k}-DET{q}-O2.3SG.M{a}-EP{j}-PRS{∅}-убить{ej}-S1.SG{∅}-",
               "gloss_ru": "S1.2-DET-O2.3SG.M-EPPRS-убить-S1.SG",
               "gloss_index_ru": "S1.2{k}-DET{q}-O2.3SG.M{a}-EP{j}-PRS{∅}-убить{ej}-S1.SG{∅}-",
-              "gr.pos": "v"
+              "gr.pos": "v",
+              "gr.tag": [
+                "S1",
+                "2",
+                "DET",
+                "O2",
+                "3SG",
+                "M",
+                "EP",
+                "PRS",
+                "убить",
+                "S1",
+                "SG"
+              ]
             }
           ],
           "off_start": 15,
@@ -114,7 +133,11 @@
               "trans_ru": "здесь",
               "gloss_ru": "здесь-LOC",
               "gloss_index_ru": "STEM{us}-LOC{ka}-",
-              "gr.pos": "adv"
+              "gr.pos": "adv",
+              "gr.tag": [
+                "STEM",
+                "LOC"
+              ]
             }
           ],
           "off_start": 5,
@@ -135,7 +158,18 @@
               "gloss_index_ru": "S1.2{k}-STEM{kaj}-T.PST{o}-PST{n}-брать{qus}-S1.SG{∅}-",
               "lex": "kaj",
               "trans_ru": "конечность",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "S1",
+                "2",
+                "STEM",
+                "T",
+                "PST",
+                "PST",
+                "брать",
+                "S1",
+                "SG"
+              ]
             }
           ],
           "off_start": 10,
@@ -183,7 +217,10 @@
               "trans_ru": "нога",
               "gloss_ru": "нога",
               "gloss_index_ru": "STEM{kiˀs}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 5,
@@ -204,7 +241,10 @@
               "trans_ru": "прочь",
               "gloss_ru": "прочь",
               "gloss_index_ru": "STEM{kəma}-",
-              "gr.pos": "<Not Sure>"
+              "gr.pos": "<Not Sure>",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 10,
@@ -225,7 +265,21 @@
               "gloss_index_ru": "S1.2{k}-STEM{had}-T.PST{o}-O2.3SG.TH{b}-PST{l}-LV{a}-S1.SG{∅}-",
               "lex": "had",
               "trans_ru": "резаит",
-              "gr.pos": "v"
+              "gr.pos": "v",
+              "gr.tag": [
+                "S1",
+                "2",
+                "STEM",
+                "T",
+                "PST",
+                "O2",
+                "3SG",
+                "TH",
+                "PST",
+                "LV",
+                "S1",
+                "SG"
+              ]
             }
           ],
           "off_start": 15,
@@ -271,7 +325,10 @@
               "gloss_index": "и{i}-",
               "gloss_ru": "и",
               "gloss_index_ru": "и{i}-",
-              "gr.pos": "adp"
+              "gr.pos": "adp",
+              "gr.tag": [
+                "и"
+              ]
             }
           ],
           "off_start": 5,
@@ -287,7 +344,10 @@
             {
               "parts": "t-u-n-∅",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "gr.tag": [
+                ""
+              ]
             }
           ],
           "off_start": 7,
@@ -308,7 +368,10 @@
               "trans_ru": "нога",
               "gloss_ru": "нога",
               "gloss_index_ru": "STEM{kiˀs}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 11,
@@ -329,7 +392,10 @@
               "trans_ru": "человек",
               "gloss_ru": "человек",
               "gloss_index_ru": "STEM{keˀt}-",
-              "gr.pos": "n"
+              "gr.pos": "n",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 16,
@@ -348,7 +414,10 @@
               "gloss_index": "обычно{an}-",
               "gloss_ru": "обычно",
               "gloss_index_ru": "обычно{an}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "обычно"
+              ]
             }
           ],
           "off_start": 21,
@@ -372,6 +441,21 @@
               "gr.pos": [
                 "<Not Sure>",
                 "v"
+              ],
+              "gr.tag": [
+                "S1",
+                "3M",
+                "STEM",
+                "DET",
+                "T",
+                "PRS",
+                "O2",
+                "3SG",
+                "TH",
+                "PRS",
+                "LV",
+                "S1",
+                "SG"
               ]
             }
           ],
@@ -418,7 +502,10 @@
               "gloss_index": "и{i}-",
               "gloss_ru": "и",
               "gloss_index_ru": "и{i}-",
-              "gr.pos": "adp"
+              "gr.pos": "adp",
+              "gr.tag": [
+                "и"
+              ]
             }
           ],
           "off_start": 5,
@@ -439,7 +526,10 @@
               "trans_ru": "потом",
               "gloss_ru": "потом",
               "gloss_index_ru": "STEM{qaje}-",
-              "gr.pos": "DM"
+              "gr.pos": "DM",
+              "gr.tag": [
+                "STEM"
+              ]
             }
           ],
           "off_start": 7,
@@ -458,7 +548,10 @@
               "gloss_index": "обычно{an}-",
               "gloss_ru": "обычно",
               "gloss_index_ru": "обычно{an}-",
-              "gr.pos": "prt"
+              "gr.pos": "prt",
+              "gr.tag": [
+                "обычно"
+              ]
             }
           ],
           "off_start": 12,
@@ -479,7 +572,18 @@
               "gloss_index_ru": "S1.2{k}-STEM{asqan}-T.PRS{s}-PRS{∅}-LV{a}-S1.SG{∅}-",
               "lex": "asqan",
               "trans_ru": "говорение",
-              "gr.pos": "v"
+              "gr.pos": "v",
+              "gr.tag": [
+                "S1",
+                "2",
+                "STEM",
+                "T",
+                "PRS",
+                "PRS",
+                "LV",
+                "S1",
+                "SG"
+              ]
             }
           ],
           "off_start": 15,
