@@ -1,6 +1,5 @@
 import json
 import html
-import os
 import copy
 import math
 import re
@@ -9,7 +8,7 @@ from flask import render_template
 try:
     from .transliteration import *
 except ImportError:
-    # This happens when response_processots.py is imported
+    # This happens when response_processors.py is imported
     # from outside this package, but we do not need the
     # transliterations in that case
     pass
@@ -195,12 +194,12 @@ class SentenceViewer:
         if not gramdic:
             try:
                 return render_template('search_results/grammar_popup.html', grAnaPart=grAnaPart).strip()
-            except:
+            except (AttributeError, RuntimeError):
                 return self.render_jinja_html('../search/web_app/templates/search_results',
                                               'grammar_popup.html', grAnaPart=grAnaPart).strip()
         try:
             return render_template('search_results/gramdic_popup.html', grAnaPart=grAnaPart).strip()
-        except:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'gramdic_popup.html', grAnaPart=grAnaPart).strip()
 
@@ -253,7 +252,7 @@ class SentenceViewer:
             ana4template['other_fields'].sort(key=lambda x: x['key'])
         try:
             return render_template('search_results/analysis_div.html', ana=ana4template).strip()
-        except:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'analysis_div.html', ana=ana4template).strip()
 
@@ -276,7 +275,7 @@ class SentenceViewer:
                 data4template['analyses'].append(ana4template)
         try:
             return render_template('search_results/analyses_popup.html', data=data4template)
-        except:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'analyses_popup.html', data=data4template)
 
@@ -416,8 +415,16 @@ class SentenceViewer:
                     for k, v in meta.items()
                     if self.rxKW.sub('', k) in self.settings.viewable_meta
                     and k not in ['filename', 'filename_kw']}
-            for k, v in sorted(meta.items()):
-                newField = '[' + k + ': ' + v.replace('\t', ' ') + ']'
+            sortedMetaFields = []
+            for f in self.settings.viewable_meta:
+                # Sort in the same order as listed in conf/corpus.json
+                if f not in ['filename', 'filename_kw'] and f not in self.settings.sentence_meta:
+                    sortedMetaFields.append(f)
+            for f in sortedMetaFields:
+                v = ''
+                if f in meta:
+                    v = str(meta[f]).replace('\t', ' ')
+                newField = '[' + f + ': ' + v + ']'
                 if newField not in result:
                     result.append(newField)
         else:
@@ -624,11 +631,18 @@ class SentenceViewer:
         metaSpan = '<span class="sentence_meta">'
         if format == 'csv':
             metaSpan = ''
-        for k, v in sorted(meta2show.items()):
+        sortedMetaFields = []
+        for f in self.settings.sentence_meta:
+            if f not in ['filename', 'filename_kw', 'sent_analyses', 'sent_analyses_kw']:
+                sortedMetaFields.append(f)
+        for f in sortedMetaFields:
+            v = ''
+            if f in meta2show:
+                v = str(meta2show[f]).replace('\t', ' ')
             if format == 'csv':
-                metaSpan += '[' + k + ': ' + str(v).replace('\t', ' ') + ']\t'
-            else:
-                metaSpan += html.escape(k + ': ' + str(v))
+                metaSpan += '[' + f + ': ' + v + ']\t'
+            elif len(v) > 0:
+                metaSpan += html.escape(f + ': ' + v)
                 metaSpan += '<br>'
         if format == 'csv':
             metaSpan = metaSpan.strip(' ')
@@ -775,7 +789,7 @@ class SentenceViewer:
                 'toggled_on': relationsSatisfied,
                 'src_alignment': fragmentInfo}
 
-    def get_glossed_sentence(self, s, getHeader=True, lang='', translit=None):
+    def get_glossed_sentence(self, s, getHeader=True, lang='', glossOnly=False, translit=None):
         """
         Process one sentence taken from response['hits']['hits'].
         If getHeader is True, retrieve the metadata from the database.
@@ -832,22 +846,28 @@ class SentenceViewer:
                 analyses = []
                 if 'ana' in w:
                     analyses = self.simplify_ana(w['ana'], [])[0]
-                setParts = set(ana['parts'] for ana in analyses if 'parts' in ana)
-                setGloss = set(ana['gloss'] for ana in analyses if 'gloss' in ana)
-                setLemmata = set(ana['lex'] for ana in analyses if 'lex' in ana)
+                setParts = set(str(ana['parts']) for ana in analyses
+                               if 'parts' in ana and type(ana['parts']) in (str, list))
+                setGloss = set(str(ana['gloss']) for ana in analyses
+                               if 'gloss' in ana and type(ana['gloss']) in (str, list))
+                setLemmata = set(str(ana['lex']) for ana in analyses
+                                 if 'lex' in ana and type(ana['lex']) in (str, list))
                 if len(setParts) > 1:
-                    parts += ' || '.join(ana['parts'] for ana in analyses if 'parts' in ana)
+                    parts += ' || '.join(str(ana['parts']) for ana in analyses
+                                         if 'parts' in ana and type(ana['parts']) in (str, list))
                 elif len(setParts) == 1:
                     parts += setParts.pop()
                 else:
                     parts += w['wf']
                 if len(setGloss) != 1:
-                    gloss += ' || '.join(ana['gloss'] for ana in analyses if 'gloss' in ana)
+                    gloss += ' || '.join(str(ana['gloss']) for ana in analyses
+                                         if 'gloss' in ana and type(ana['gloss']) in (str, list))
                 else:
                     gloss += setGloss.pop()
                 gramm += ' || '.join(get_ana_gramm(ana) for ana in analyses)
                 if len(setLemmata) != 1:
-                    lemmata += ' || '.join(ana['lex'] for ana in analyses if 'lex' in ana)
+                    lemmata += ' || '.join(str(ana['lex']) for ana in analyses
+                                           if 'lex' in ana and type(ana['lex']) in (str, list))
                 else:
                     lemmata += setLemmata.pop()
         if self.rxTabs.search(parts) is not None:
@@ -858,9 +878,12 @@ class SentenceViewer:
             gramm = ''
         if self.rxTabs.search(lemmata) is not None:
             lemmata = ''
-        if len(parts) > 0:
-            return text + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
-        return text + tokens + '\n' + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+        if not glossOnly:
+            if len(parts) > 0:
+                return text + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+            return text + tokens + '\n' + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+        # glossOnly == True means that we don't need anything other than the glossed example
+        return parts.replace('\t', ' ') + '\t' + gloss.replace('\t', ' ')
 
     def count_word_subcorpus_stats(self, w, docIDs):
         """
@@ -1288,7 +1311,7 @@ class SentenceViewer:
         offsets of the words that matched the word-level query
         and offsets of the respective analyses, if any.
         Search for word offsets recursively, so that the procedure
-        does not depend excatly on the response structure.
+        does not depend exactly on the response structure.
         Return a dictionary where keys are offsets of highlighted words
         and values are sets of the pairs (ID of the words, ID of its ana)
         that were found by the search query .
@@ -1467,6 +1490,7 @@ class SentenceViewer:
                 # found items comes from word[wtype=word_freq] objects and
                 # therefore is stored in a subaggregation.
                 # If not, it will be taken from the item itself by process_word_buckets.
+                # print(response['aggregations']['agg_group_by_word'])
                 wordFreq = response['aggregations']['agg_group_by_word']['buckets'][iHit]['subagg_freq']['value']
             except KeyError:
                 wordFreq = None

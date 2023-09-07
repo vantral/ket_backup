@@ -30,8 +30,14 @@ def search_page():
     if request.query_string is not None:
         queryString = request.query_string.decode('utf-8')
     ready4work = settings.ready_for_work
+    sc.start_elastic_service()
     if settings.ready_for_work:
         ready4work = sc.is_alive()
+        if (not ready4work
+                and settings.try_restart_elastic
+                and (settings.elastic_url is None or len(settings.elastic_url) <= 0)):
+            # The local Elasticsearch server is down, try to restart it
+            sc.start_elastic_service()
     bMinimalistic = ('minimalistic' in request.url_rule.rule)
     locales = settings.interface_languages
     if type(locales) == list:
@@ -363,6 +369,9 @@ def search_sent(page=-1):
                     // hitsProcessed['page_size'] + 1
     hitsProcessed['too_many_hits'] = (settings.max_hits_retrieve < hitsProcessed['n_sentences'])
 
+    if request.args and 'response_format' in request.args and request.args['response_format'] == 'json':
+        return jsonify(hitsProcessed)
+
     return render_template('search_results/result_sentences.html',
                            data=hitsProcessed,
                            max_page_number=maxPageNumber)
@@ -584,7 +593,7 @@ def download_cur_results_xlsx():
 @app.route('/toggle_sentence/<int:sentNum>')
 def toggle_sentence(sentNum):
     """
-    Togle currently viewed sentence with the given number on or off.
+    Toggle currently viewed sentence with the given number on or off.
     The sentences that have been switched off are not written to the
     CSV/XLSX when the user wants to download the search results.
     """
@@ -603,7 +612,7 @@ def toggle_sentence(sentNum):
 @app.route('/toggle_doc/<int:docID>')
 def toggle_document(docID):
     """
-    Togle given docID on or off. The documents that have been switched off
+    Toggle given docID on or off. The documents that have been switched off
     are not included in the search.
     """
     excludedDocIDs = get_session_data('excluded_doc_ids')
