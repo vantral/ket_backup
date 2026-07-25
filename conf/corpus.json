@@ -191,5 +191,5 @@
               {"type": "gramm", "value": "POSS.PL.NTH", "tooltip": "POSS.PL.NTH"}
         ]]}}
     },
-    "elastic_url":"http://elasticsearch:9200"
+    "elastic_url":"http://elasticsearch"
   }
