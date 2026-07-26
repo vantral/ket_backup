@@ -1,6 +1,11 @@
 {
     "corpus_name": "ket",
     "start_page_url": "./",
+    "landing_language_names": {
+        "ket": "Кетский язык",
+        "ru": "Русский язык",
+        "en": "Английский язык"
+    },
     "citation": "The corpus of the Ket language.",
     "input_format": "json",
     "debug": false,
