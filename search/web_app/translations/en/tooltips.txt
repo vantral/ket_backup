@@ -23,7 +23,7 @@ light verb	light verb
 LOC	locative
 MOD	modal adverb
 NEG	negation
-Nominal inflection	Nominal Inflection
+Nominal inflection	Nominal inflection
 NTH	non-thematic
 O2.1PL.CORF	series 2 object marker, first person, plural, coreferential
 O2.1SG	series 2 object marker, first person, singular
@@ -47,19 +47,19 @@ O3.3PLCORF	series 3 object marker: third person, plural, coreferential
 O3.3SG.F	series 3 object marker, third person, singular, feminine
 O3.3SG.M	series 3 object marker, third person, singular, masculine
 O3.3SG.TH	series 3 object marker, third person, singular, thematic class
-Object agreement	Object Agreement
+Object agreement	Object agreement
 Other	Other
-Other verb tags	Other Verb Tags
+Other verb tags	Other verb tags
 PL	plural
 POSS.PL.NTH	possessive, plural, non-thematic
 PRED	predicative
 PRED.A	predicative, adjective
 PRED.NA	predicative, non-adjectival
-Predicative form	Predicative Form
+Predicative form	Predicative form
 PROL	prolative
 PRS	present
 PST	past
-Reflexive form	Reflexive Form
+Reflexive form	Reflexive form
 S1.1	series 1 subject marker, first person
 S1.2	series 1 subject marker, second person
 S1.2PL	series 1 subject marker, second person, plural
@@ -80,7 +80,7 @@ S3.3SG.M	series 3 subject marker, third person, singular, masculine
 S3.3SG.TH	series 3 subject marker, third person, singular, thematic class
 S3.3SH.F	series 3 subject marker: 3SH class, feminine?
 SG	singular
-Subject agreement	Subject Agreement
+Subject agreement	Subject agreement
 T.PRS	tense marker, present
 T.PST	tense marker, past
 Tense	Tense

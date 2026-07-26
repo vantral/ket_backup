@@ -1,6 +1,6 @@
 ﻿language,kind,key,title_ru,title_en,description_ru,description_en
 ket,language,ket,Кетский язык,Ket,,
-ket,group,Nominal inflection,Nominal Inflection,Nominal Inflection,,
+ket,group,Nominal inflection,Именное словоизменение,Nominal inflection,,
 ket,tag,ABL,аблатив,ablative,Помета обозначает: аблатив.,The tag marks: ablative.
 ket,tag,CAR,каритив,caritive,Помета обозначает: каритив.,The tag marks: caritive.
 ket,tag,DATALL,датив-аллатив,dative-allative,Совмещённая падежная помета для адресата и направления движения.,A combined case label used for recipient and goal-of-motion contexts.
@@ -23,7 +23,7 @@ ket,tag,PRS,настоящее время,present,Помета обознача�
 ket,tag,PST,прошедшее время,past,Помета обозначает: прошедшее время.,The tag marks: past.
 ket,tag,T.PRS,"временной показатель, настоящее время","tense marker, present","Помета обозначает: временной показатель, настоящее время.","The tag marks: tense marker, present."
 ket,tag,T.PST,"временной показатель, прошедшее время","tense marker, past","Помета обозначает: временной показатель, прошедшее время.","The tag marks: tense marker, past."
-ket,group,Subject agreement,Subject Agreement,Subject Agreement,,
+ket,group,Subject agreement,Субъектное согласование,Subject agreement,,
 ket,tag,S1.1,"субъектный показатель серии 1, первое лицо","series 1 subject marker, first person","Помета обозначает: субъектный показатель серии 1, первое лицо.","The tag marks: series 1 subject marker, first person."
 ket,tag,S1.2,"субъектный показатель серии 1, второе лицо","series 1 subject marker, second person","Помета обозначает: субъектный показатель серии 1, второе лицо.","The tag marks: series 1 subject marker, second person."
 ket,tag,S1.2PL,"субъектный показатель серии 1, второе лицо, множественное число","series 1 subject marker, second person, plural","Помета обозначает: субъектный показатель серии 1, второе лицо, множественное число.","The tag marks: series 1 subject marker, second person, plural."
@@ -43,7 +43,7 @@ ket,tag,S3.3SG.F,"субъектный показатель серии 3, тре
 ket,tag,S3.3SG.M,"субъектный показатель серии 3, третье лицо, единственное число, мужской род","series 3 subject marker, third person, singular, masculine","Помета обозначает: субъектный показатель серии 3, третье лицо, единственное число, мужской род.","The tag marks: series 3 subject marker, third person, singular, masculine."
 ket,tag,S3.3SG.TH,"субъектный показатель серии 3, третье лицо, единственное число, тематический класс","series 3 subject marker, third person, singular, thematic class","Помета обозначает: субъектный показатель серии 3, третье лицо, единственное число, тематический класс.","The tag marks: series 3 subject marker, third person, singular, thematic class."
 ket,tag,S3.3SH.F,"субъектный показатель серии 3: класс 3SH, женский род?","series 3 subject marker: 3SH class, feminine?","Помета обозначает: субъектный показатель серии 3: класс 3SH, женский род?.","The tag marks: series 3 subject marker: 3SH class, feminine?."
-ket,group,Object agreement,Object Agreement,Object Agreement,,
+ket,group,Object agreement,Объектное согласование,Object agreement,,
 ket,tag,O2.1PL.CORF,"объектный показатель серии 2, первое лицо, множественное число, кореферентность","series 2 object marker, first person, plural, coreferential","Помета обозначает: объектный показатель серии 2, первое лицо, множественное число, кореферентность.","The tag marks: series 2 object marker, first person, plural, coreferential."
 ket,tag,O2.1SG,"объектный показатель серии 2, первое лицо, единственное число","series 2 object marker, first person, singular","Помета обозначает: объектный показатель серии 2, первое лицо, единственное число.","The tag marks: series 2 object marker, first person, singular."
 ket,tag,O2.1SG.CORF,"объектный показатель серии 2, первое лицо, единственное число, кореферентность","series 2 object marker, first person, singular, coreferential","Помета обозначает: объектный показатель серии 2, первое лицо, единственное число, кореферентность.","The tag marks: series 2 object marker, first person, singular, coreferential."
@@ -66,28 +66,28 @@ ket,tag,O3.3PLCORF,"объектный показатель серии 3: тре
 ket,tag,O3.3SG.F,"объектный показатель серии 3, третье лицо, единственное число, женский род","series 3 object marker, third person, singular, feminine","Помета обозначает: объектный показатель серии 3, третье лицо, единственное число, женский род.","The tag marks: series 3 object marker, third person, singular, feminine."
 ket,tag,O3.3SG.M,"объектный показатель серии 3, третье лицо, единственное число, мужской род","series 3 object marker, third person, singular, masculine","Помета обозначает: объектный показатель серии 3, третье лицо, единственное число, мужской род.","The tag marks: series 3 object marker, third person, singular, masculine."
 ket,tag,O3.3SG.TH,"объектный показатель серии 3, третье лицо, единственное число, тематический класс","series 3 object marker, third person, singular, thematic class","Помета обозначает: объектный показатель серии 3, третье лицо, единственное число, тематический класс.","The tag marks: series 3 object marker, third person, singular, thematic class."
-ket,group,Other verb tags,Other Verb Tags,Other Verb Tags,,
+ket,group,Other verb tags,Прочие глагольные пометы,Other verb tags,,
 ket,tag,IMPER,императив,imperative,Помета обозначает: императив.,The tag marks: imperative.
 ket,tag,MOD,модальное наречие,modal adverb,Помета обозначает: модальное наречие.,The tag marks: modal adverb.
 ket,tag,NEG,отрицание,negation,Помета обозначает: отрицание.,The tag marks: negation.
 ket,tag,LV,лёгкий глагол,light verb,Помета обозначает: лёгкий глагол.,light verb.
-ket,group,Reflexive form,Reflexive Form,Reflexive Form,,
+ket,group,Reflexive form,Рефлексивная форма,Reflexive form,,
 ket,tag,1PL,"первое лицо, множественное число","first person, plural","Помета обозначает: первое лицо, множественное число.","The tag marks: first person, plural."
 ket,tag,1SG,"первое лицо, единственное число","first person, singular","Помета обозначает: первое лицо, единственное число.","The tag marks: first person, singular."
 ket,tag,3PL,"третье лицо, множественное число","third person, plural","Помета обозначает: третье лицо, множественное число.","The tag marks: third person, plural."
 ket,tag,3SG.F,"третье лицо, единственное число, женский род","third person, singular, feminine","Помета обозначает: третье лицо, единственное число, женский род.","The tag marks: third person, singular, feminine."
-ket,group,Predicative form,Predicative Form,Predicative Form,,
+ket,group,Predicative form,Предикативная форма,Predicative form,,
 ket,tag,PRED,предикатив,predicative,Помета обозначает: предикатив.,The tag marks: predicative.
 ket,tag,PRED.A,"предикатив, прилагательное","predicative, adjective","Помета обозначает: предикатив, прилагательное.","The tag marks: predicative, adjective."
 ket,tag,PRED.NA,"предикатив, неадъективный","predicative, non-adjectival","Помета обозначает: предикатив, неадъективный.","The tag marks: predicative, non-adjectival."
-ket,group,Other,Other,Other,,
+ket,group,Other,Прочее,Other,,
 ket,tag,ADV,наречие,adverb,Помета обозначает: наречие.,The tag marks: adverb.
 ket,tag,DET,определитель,determiner,Помета обозначает: определитель.,The tag marks: determiner.
 ket,tag,DETR,детранзитив,detransitivizer,Помета обозначает: детранзитив.,The tag marks: detransitivizer.
 ket,tag,EP,эпентеза,epenthesis,Помета обозначает: эпентеза.,The tag marks: epenthesis.
 ket,tag,HES,хезитатив,hesitative,Помета обозначает: хезитатив.,The tag marks: hesitative.
 ket,tag,NTH,нетематический класс,non-thematic,Помета обозначает: нетематический класс.,The tag marks: non-thematic.
-ket,group,pers,Pers,Pers,,
+ket,group,pers,Лицо,Person,,
 ket,tag,1,первое лицо,first person,Помета обозначает: первое лицо.,The tag marks: first person.
 ket,tag,2,второе лицо,second person,Помета обозначает: второе лицо.,The tag marks: second person.
 ket,tag,3,третье лицо,third person,Помета обозначает: третье лицо.,The tag marks: third person.
@@ -105,9 +105,9 @@ ket,tag,IMIT,идеофон,ideophone,Помета обозначает: иде�
 ket,tag,PARENTH,вводная конструкция,parenthetical,Помета обозначает: вводная конструкция.,The tag marks: parenthetical.
 ket,tag,PREDIC,предикатив,predicative,Помета обозначает: предикатив.,The tag marks: predicative.
 ket,tag,V,глагол,verb,Помета обозначает: глагол.,The tag marks: verb.
-ket,group,nType,Ntype,Ntype,,
+ket,group,nType,Тип существительного,Noun type,,
 ket,tag,rel_n,реляционное существительное,relational noun,Помета обозначает: реляционное существительное.,The tag marks: relational noun.
-ket,group,adjType,Adjtype,Adjtype,,
+ket,group,adjType,Тип прилагательного,Adjective type,,
 ket,tag,rel_adj,реляционное прилагательное,relational adjective,Помета обозначает: реляционное прилагательное.,The tag marks: relational adjective.
 ket,tag,topn,топоним,place name,Помета обозначает: топоним.,The tag marks: place name.
 ket,tag,famn,фамилия,family name,Помета обозначает: фамилия.,The tag marks: family name.
@@ -120,9 +120,9 @@ ket,tag,persn,личное имя,personal name,Помета обозначае�
 ket,tag,patrn,отчество,patronymic,Помета обозначает: отчество.,The tag marks: patronymic.
 ket,tag,vn,отглагольное имя,verbal noun,Помета обозначает: отглагольное имя.,The tag marks: verbal noun.
 ket,tag,nloc,имя места,nomen loci,Помета обозначает: имя места.,The tag marks: nomen loci.
-ket,group,stemType,Stemtype,Stemtype,,
+ket,group,stemType,Тип основы,Stem type,,
 ket,tag,obl,косвенная основа,oblique stem,Помета обозначает: косвенная основа.,The tag marks: oblique stem.
-ket,group,proType,Protype,Protype,,
+ket,group,proType,Тип местоимения,Pronoun type,,
 ket,tag,dem,указательное местоимение,demonstrative,Помета обозначает: указательное местоимение.,The tag marks: demonstrative.
 ket,tag,pers,категория лица,person category,Помета обозначает: категория лица.,The tag marks: person category.
 ket,tag,refl,рефлексив,reflexive,Помета обозначает: рефлексив.,The tag marks: reflexive.
@@ -151,14 +151,14 @@ ket,tag,fut,будущее время,future,Помета обозначает: 
 ket,group,number,Число,Number,,
 ket,tag,pl,множественное число,plural,Помета обозначает: множественное число.,The tag marks: plural.
 ket,tag,sg,единственное число,singular,Помета обозначает: единственное число.,The tag marks: singular.
-ket,group,v_form,V Form,V Form,,
+ket,group,v_form,Глагольная форма,Verb form,,
 ket,tag,ptcp,причастие,participle,Помета обозначает: причастие.,The tag marks: participle.
 ket,tag,cvb,конверб,converb,Помета обозначает: конверб.,The tag marks: converb.
 ket,tag,neg,отрицание,negation,Помета обозначает: отрицание.,The tag marks: negation.
-ket,group,ptcp_form,Ptcp Form,Ptcp Form,,
+ket,group,ptcp_form,Форма причастия,Participle form,,
 ket,tag,perf,совершенный вид,perfective,Помета обозначает: совершенный вид.,The tag marks: perfective.
 ket,tag,deb,дебитив,debitive,Помета обозначает: дебитив.,The tag marks: debitive.
-ket,group,cnv_form,Cnv Form,Cnv Form,,
+ket,group,cnv_form,Форма конверба,Converb form,,
 ket,tag,lim,ограничительное значение,limitative,Помета обозначает: ограничительное значение.,The tag marks: limitative.
 ket,tag,simult,одновременность,simultaneous,Помета обозначает: одновременность.,The tag marks: simultaneous.
 ket,tag,res,результатив,resultative,Помета обозначает: результатив.,The tag marks: resultative.
@@ -167,45 +167,45 @@ ket,tag,dur,дуратив,durative,Помета обозначает: дура�
 ket,tag,imp,императив,imperative,Помета обозначает: императив.,The tag marks: imperative.
 ket,tag,prh,прохибитив,prohibitive,Помета обозначает: прохибитив.,The tag marks: prohibitive.
 ket,tag,inf,инфинитив,infinitive,Помета обозначает: инфинитив.,The tag marks: infinitive.
-ket,group,conjtype,Conjtype,Conjtype,,
+ket,group,conjtype,Тип союза,Conjunction type,,
 ket,tag,I,глагольная основа I,stem I,Помета обозначает: глагольная основа I.,The tag marks: stem I.
 ket,tag,II,глагольная основа II,stem II,Помета обозначает: глагольная основа II.,The tag marks: stem II.
-ket,group,v_deriv,V Deriv,V Deriv,,
+ket,group,v_deriv,Глагольная деривация,Verbal derivation,,
 ket,tag,iter,итератив,iterative,Помета обозначает: итератив.,The tag marks: iterative.
 ket,tag,act,действительный залог,active,Помета обозначает: действительный залог.,The tag marks: active.
 ket,tag,pass,страдательный залог,passive,Помета обозначает: страдательный залог.,The tag marks: passive.
 ket,tag,detr,детранзитив,detransitivizer,Помета обозначает: детранзитив.,The tag marks: detransitivizer.
 ket,tag,caus,каузатив,causative,Помета обозначает: каузатив.,The tag marks: causative.
-ket,group,attributivizer,Attributivizer,Attributivizer,,
+ket,group,attributivizer,Атрибутивизатор,Attributivizer,,
 ket,tag,attr,атрибутив,attributive,Помета обозначает: атрибутив.,The tag marks: attributive.
 ket,tag,attr_o,атрибутивная форма на -o,attributive form in -o,Помета обозначает: атрибутивная форма на -o.,The tag marks: attributive form in -o.
 ket,tag,attr_em,атрибутивная форма на -jem,attributive form in -jem,Помета обозначает: атрибутивная форма на -jem.,The tag marks: attributive form in -jem.
 ket,tag,attr_tem,отрицательная атрибутивная форма на -tem,negative attributive form in -tem,Помета обозначает: отрицательная атрибутивная форма на -tem.,The tag marks: negative attributive form in -tem.
-ket,group,case_c,Case C,Case C,,
+ket,group,case_c,Падежное управление,Case government,,
 ket,tag,intensifier,интенсификатор,intensifier,Помета обозначает: интенсификатор.,The tag marks: intensifier.
 ket,tag,poss_comp,посессивное сложение,possessive compounding,Помета обозначает: посессивное сложение.,The tag marks: possessive compounding.
-ket,group,n_deriv,N Deriv,N Deriv,,
+ket,group,n_deriv,Именная деривация,Nominal derivation,,
 ket,tag,case_comp,падежное сложение,case compounding,Помета обозначает: падежное сложение.,The tag marks: case compounding.
-ket,group,poss,Poss,Poss,,
+ket,group,poss,Посессивность,Possessiveness,,
 ket,tag,1sg,"первое лицо, единственное число","first person, singular","Помета обозначает: первое лицо, единственное число.","The tag marks: first person, singular."
 ket,tag,2sg,"второе лицо, единственное число","second person, singular","Помета обозначает: второе лицо, единственное число.","The tag marks: second person, singular."
 ket,tag,3sg,"третье лицо, единственное число","third person, singular","Помета обозначает: третье лицо, единственное число.","The tag marks: third person, singular."
 ket,tag,1pl,"первое лицо, множественное число","first person, plural","Помета обозначает: первое лицо, множественное число.","The tag marks: first person, plural."
 ket,tag,2pl,"второе лицо, множественное число","second person, plural","Помета обозначает: второе лицо, множественное число.","The tag marks: second person, plural."
 ket,tag,3pl,"третье лицо, множественное число","third person, plural","Помета обозначает: третье лицо, множественное число.","The tag marks: third person, plural."
-ket,group,comp,Comp,Comp,,
+ket,group,comp,Сочетаемость,Combinability,,
 ket,tag,comp,сравнительная степень,comparative,Помета обозначает: сравнительная степень.,The tag marks: comparative.
-ket,group,num_deriv,Num Deriv,Num Deriv,,
+ket,group,num_deriv,Деривация числительных,Numeral derivation,,
 ket,tag,ord,порядковое числительное,ordinal,Помета обозначает: порядковое числительное.,The tag marks: ordinal.
 ket,tag,coll,собирательность,collective,Помета обозначает: собирательность.,The tag marks: collective.
 ket,tag,distr,дистрибутив,distributive,Помета обозначает: дистрибутив.,The tag marks: distributive.
 ket,group,mood,Наклонение,Mood,,
 ket,tag,subj,субъюнктив,subjunctive,Помета обозначает: субъюнктив.,The tag marks: subjunctive.
-ket,group,additional,Additional,Additional,,
+ket,group,additional,Дополнительные признаки,Additional features,,
 ket,tag,abbr,аббревиатура,abbreviation,Помета обозначает: аббревиатура.,The tag marks: abbreviation.
 ket,tag,rus,русское заимствование,Russian borrowing,Помета обозначает: русское заимствование.,The tag marks: Russian borrowing.
 ket,tag,oblin,облинатив,oblinative,Помета обозначает: облинатив.,The tag marks: oblinative.
-ket,group,v_subcat,V Subcat,V Subcat,,
+ket,group,v_subcat,Глагольная подклассификация,Verb subclass,,
 ket,tag,intr,непереходный глагол,intransitive,Помета обозначает: непереходный глагол.,The tag marks: intransitive.
 ket,tag,tr,переходный глагол,transitive,Помета обозначает: переходный глагол.,The tag marks: transitive.
 ket,tag,with_instr,сочетается с инструменталисом,used with instrumental,Помета обозначает: сочетается с инструменталисом.,The tag marks: used with instrumental.
