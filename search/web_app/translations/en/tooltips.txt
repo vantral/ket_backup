@@ -1,0 +1,87 @@
+﻿1PL	first person, plural
+1SG	first person, singular
+3PL	third person, plural
+3SG.F	third person, singular, feminine
+ABL	ablative
+ADV	adverb
+BEN	benefactive
+CAR	caritive
+DATALL	dative-allative
+DATLOC	dative-locative
+DET	determiner
+DETR	detransitivizer
+EP	epenthesis
+GEN	genitive
+GEN.1SG	genitive, first person, singular
+GEN.PL.NTH	genitive, plural, non-thematic
+GEN.SG.M	genitive, singular, masculine
+GEN.SG.NM	genitive, singular, non-masculine
+HES	hesitative
+IMPER	imperative
+INSTR	instrumental
+light verb	light verb
+LOC	locative
+MOD	modal adverb
+NEG	negation
+Nominal inflection	Nominal Inflection
+NTH	non-thematic
+O2.1PL.CORF	series 2 object marker, first person, plural, coreferential
+O2.1SG	series 2 object marker, first person, singular
+O2.1SG.CORF	series 2 object marker, first person, singular, coreferential
+O2.3M.CORF	series 2 object marker, third person, masculine, coreferential
+O2.3PL	series 2 object marker, third person, plural
+O2.3PL.CORF	series 2 object marker, third person, plural, coreferential
+O2.3SG.M	series 2 object marker, third person, singular, masculine
+O2.3SG.M.CORF	series 2 object marker, third person, singular, masculine, coreferential
+O2.3SG.TH	series 2 object marker, third person, singular, thematic class
+O2.3SG.TH.CORF	series 2 object marker, third person, singular, thematic class, coreferential
+O3.1PL	series 3 object marker, first person, plural
+O3.1PL.CORF	series 3 object marker, first person, plural, coreferential
+O3.1SG	series 3 object marker, first person, singular
+O3.1SG.CORF	series 3 object marker, first person, singular, coreferential
+O3.2SG	series 3 object marker, second person, singular
+O3.3M.SG	series 3 object marker, third person, masculine, singular
+O3.3PL	series 3 object marker, third person, plural
+O3.3PL.CORF	series 3 object marker, third person, plural, coreferential
+O3.3PLCORF	series 3 object marker: third person, plural, coreferential
+O3.3SG.F	series 3 object marker, third person, singular, feminine
+O3.3SG.M	series 3 object marker, third person, singular, masculine
+O3.3SG.TH	series 3 object marker, third person, singular, thematic class
+Object agreement	Object Agreement
+Other	Other
+Other verb tags	Other Verb Tags
+PL	plural
+POSS.PL.NTH	possessive, plural, non-thematic
+PRED	predicative
+PRED.A	predicative, adjective
+PRED.NA	predicative, non-adjectival
+Predicative form	Predicative Form
+PROL	prolative
+PRS	present
+PST	past
+Reflexive form	Reflexive Form
+S1.1	series 1 subject marker, first person
+S1.2	series 1 subject marker, second person
+S1.2PL	series 1 subject marker, second person, plural
+S1.3	series 1 subject marker, third person
+S1.3F	series 1 subject marker, third person, feminine
+S1.3M	series 1 subject marker, third person, masculine
+S1.3TH	series 1 subject marker, third person, thematic class
+S1.PL	series 1 subject marker, plural
+S1.SG	series 1 subject marker, singular
+S2.3SG.TH	series 2 subject marker, third person, singular, thematic class
+S3.1PL	series 3 subject marker, first person, plural
+S3.1SG	series 3 subject marker, first person, singular
+S3.2SG	series 3 subject marker, second person, singular
+S3.3M.SG	series 3 subject marker, third person, masculine, singular
+S3.3PL	series 3 subject marker, third person, plural
+S3.3SG.F	series 3 subject marker, third person, singular, feminine
+S3.3SG.M	series 3 subject marker, third person, singular, masculine
+S3.3SG.TH	series 3 subject marker, third person, singular, thematic class
+S3.3SH.F	series 3 subject marker: 3SH class, feminine?
+SG	singular
+Subject agreement	Subject Agreement
+T.PRS	tense marker, present
+T.PST	tense marker, past
+Tense	Tense
+VOC	vocative
