@@ -1,5 +1,6 @@
 {
     "corpus_name": "ket",
+    "start_page_url": "./",
     "citation": "The corpus of the Ket language.",
     "input_format": "json",
     "debug": false,

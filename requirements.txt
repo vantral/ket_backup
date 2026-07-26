@@ -3,6 +3,7 @@
 elasticsearch>=7.17.0,<8.0.0
 Flask
 Flask-Babel
+Markdown>=3.5,<4
 lxml
 ijson
 XlsxWriter
